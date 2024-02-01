@@ -6,18 +6,17 @@ import time
 
 
 def opt(settings):
-
     bpars_list = settings["balancing_pars"]
     x0 = np.hstack(np.array(bpars_list))
     e = get_exp()
-    exp = tuple(e[['voltage','soc']].apply(tuple, axis=1))
+    exp = tuple(e[['voltage', 'soc']].apply(tuple, axis=1))
     bounds = settings["bounds"]
     lbounds = np.array(bounds[0])
     ubounds = np.array(bounds[1])
 
     soln = dfols.solve(obj_fun, x0, args=(exp),
                        bounds=(lbounds, ubounds),
-                       scaling_within_bounds=True, maxfun=100,
+                       scaling_within_bounds=True, maxfun=50,
                        user_params={"restarts.use_restarts": False, "restarts.use_soft_restarts": False,
                                     "restarts.max_unsuccessful_restarts": 5},
                        rhobeg=0.2, rhoend=1e-7, print_progress=True,
@@ -32,28 +31,27 @@ def opt(settings):
 
 
 def obj_fun(x, *args):
-
     e = args
     r = sim(x)
     re = tuple(r[['voltage', 'soc']].apply(tuple, axis=1))
 
     minexp = len(e) - 10
     minres = len(re)
-    #min_min = min([minexp, minres])-10
+    # min_min = min([minexp, minres])-10
     skip = 5
 
     if minres >= minexp:
-        e = e[skip:minexp+skip]
+        e = e[skip:minexp + skip]
         exp = [element[0] for element in e]
-        re = re[skip:minexp+skip]
+        re = re[skip:minexp + skip]
         results = [element[0] for element in re]
     else:
-        e = e[skip:minexp+skip]
+        e = e[skip:minexp + skip]
         exp = [element[0] for element in e]
-        #re = re[minres]
+        # re = re[minres]
         results = [element[0] for element in re]
-        zeros = ([0]*(minexp-minres))
-        results.extend([0]*(minexp-minres))
+        zeros = ([0] * (minexp - minres))
+        results.extend([0] * (minexp - minres))
 
     # interp_res =
 
@@ -68,12 +66,12 @@ def sim(x):
     client = mph.start()
     model = client.load('li_battery_2d_NMC-Gr.mph')
 
-    #model.parameter('h1', x[0])              #Share of heterogeneous region 1 [h2=1-h1]
-    model.parameter('LI_loss', x[0])         #Loss of lithium inventory
-    model.parameter('epss_ia_pos1', x[1])    #Inactive phase volume fraction, pos el, region 1
-    model.parameter('epss_ia_pos2', x[2])    #Inactive phase volume fraction, pos el, region 2
-    model.parameter('epss_ia_neg1', x[3])    #Inactive phase volume fraction, neg el, region 1
-    model.parameter('epss_ia_neg2', x[4])    #Inactive phase volume fraction, neg el, region 1
+    # model.parameter('h1', x[0])              #Share of heterogeneous region 1 [h2=1-h1]
+    model.parameter('LI_loss', x[0])  # Loss of lithium inventory
+    model.parameter('epss_ia_pos1', x[1])  # Inactive phase volume fraction, pos el, region 1
+    model.parameter('epss_ia_pos2', x[2])  # Inactive phase volume fraction, pos el, region 2
+    model.parameter('epss_ia_neg1', x[3])  # Inactive phase volume fraction, neg el, region 1
+    model.parameter('epss_ia_neg2', x[4])  # Inactive phase volume fraction, neg el, region 1
 
     model.solve('Discharge')
     model.export()
@@ -82,8 +80,8 @@ def sim(x):
     results = get_results()
     return results
 
-def get_results():
 
+def get_results():
     results = pd.DataFrame(columns=['voltage', 'soc'])
     with open('Discharge.txt') as d:
         dch = d.read()
@@ -113,6 +111,7 @@ def get_exp():
         exp['soc'] = exp['soc'].astype(float)
 
     return exp
+
 
 def calculate_rms(array):
     # Convert the array to a numpy array
