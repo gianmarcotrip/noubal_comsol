@@ -1,0 +1,1 @@
+0.05 0.4 0.05 0.3 0.05 (LLI, pos, neg)  (h1=0.5, not to be optimized)
