@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import dfols
 import mph
-import fun
 import time
 
 
@@ -67,7 +66,7 @@ def obj_fun(x, *args):
 
 def sim(x):
     client = mph.start()
-    model = client.load('noubal/li_battery_2d_NMC-Gr.mph')
+    model = client.load('li_battery_2d_NMC-Gr.mph')
 
     #model.parameter('h1', x[0])              #Share of heterogeneous region 1 [h2=1-h1]
     model.parameter('LI_loss', x[0])         #Loss of lithium inventory
@@ -86,7 +85,7 @@ def sim(x):
 def get_results():
 
     results = pd.DataFrame(columns=['voltage', 'soc'])
-    with open('noubal/Discharge.txt') as d:
+    with open('Discharge.txt') as d:
         dch = d.read()
         dch = dch.rstrip()
         dch = dch.split(';')
@@ -102,7 +101,7 @@ def get_results():
 
 def get_exp():
     exp = pd.DataFrame(columns=['voltage', 'soc'])
-    with open('noubal/exp.txt') as d:
+    with open('exp.txt') as d:
         e = d.read()
         e = e.rstrip()
         e = e.split(';')
