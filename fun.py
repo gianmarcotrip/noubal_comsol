@@ -1,17 +1,47 @@
 import mph
 import numpy as np
 import pandas as pd
+import time
+
+''' DFOLS reads a tuple for experimental data while PSO a dictionary. Therefore they are initialized differently 
+but then the objective function is solved within the same definition f which account for both cases. 
+Smarter solution could be find '''
 
 
-def obj_fun(x, *args):
-    e = args
-    r = sim(x)
-    re = tuple(r[['voltage', 'soc']].apply(tuple, axis=1))
-
-    res = interp(e, re)
-
-    # print(time.perf_counter())
+def obj_fun_dfols(x, *args):
+    exp = args
+    res = f(x, exp)
     return res
+
+
+def obj_fun_pso(x, **args):
+    exp = args
+    res = f(x, exp)
+    return res
+
+
+def f(x, exp):
+    if isinstance(x[0], list):
+        res = []
+        for row in x:
+            r = sim(row)
+            re = tuple(r[['voltage', 'soc']].apply(tuple, axis=1))
+
+            residual = interp(exp, re)
+            # residual = length(exp, re)
+            res.append(calculate_rms(residual))
+    else:
+        r = sim(x)
+        re = tuple(r[['voltage', 'soc']].apply(tuple, axis=1))
+
+        res = interp(exp, re)
+        # res = length(exp, re)
+
+    print(time.perf_counter())
+    return res
+
+
+'''Responsible for the simulation independently from the optimization algorithm utilized'''
 
 
 def sim(x):
@@ -19,7 +49,7 @@ def sim(x):
     model = client.load('li_battery_2d_NMC-Gr.mph')
 
     # model.parameter('h1', x[0])              #Share of heterogeneous region 1 [h2=1-h1]
-    model.parameter('LI_loss', x[0])  # Loss of lithium inventory
+    model.parameter('LI_loss', x[0])       # Loss of lithium inventory
     model.parameter('epss_ia_pos1', x[1])  # Inactive phase volume fraction, pos el, region 1
     model.parameter('epss_ia_pos2', x[2])  # Inactive phase volume fraction, pos el, region 2
     model.parameter('epss_ia_neg1', x[3])  # Inactive phase volume fraction, neg el, region 1
@@ -33,6 +63,11 @@ def sim(x):
     return results
 
 
+''' Two different ways of manipulating data and obtaining the residuals. 
+The First is based on interpolation to a common SOC that ranges from 1 to 0 in n point.
+The second relies purely on the length of the vectors.'''
+
+
 def interp(e, re):
     soc = np.linspace(1, 0, 100)
     u_exp = [element[0] for element in e]
@@ -43,7 +78,7 @@ def interp(e, re):
     exp = np.interp(soc, np.array(x_exp), np.array(u_exp))
     res = np.interp(soc, np.array(x_res), np.array(u_res))
 
-    res = [calculate_rms(a-b) for a, b in zip(res, exp)]
+    res = [(a-b) for a, b in zip(res, exp)]
     return res
 
 
@@ -64,11 +99,14 @@ def length(e, re):
         results = [element[0] for element in re]
         results.extend([0] * (minexp - minres))
 
-    res = [calculate_rms(a-b) for a, b in zip(results, exp)]
+    res = [(a-b) for a, b in zip(results, exp)]
     return res
 
 
-def get_results():
+''' Functions responsible for reading and formatting both experimental and model data'''
+
+
+def get_results():  # From COMSOL txt file
     results = pd.DataFrame(columns=['voltage', 'soc'])
     with open('Discharge.txt') as d:
         dch = d.read()
@@ -84,7 +122,7 @@ def get_results():
     return results
 
 
-def get_exp():
+def get_exp():  #From COMSOL example
     exp = pd.DataFrame(columns=['voltage', 'soc'])
     with open('exp.txt') as d:
         e = d.read()
@@ -100,8 +138,8 @@ def get_exp():
     return exp
 
 
-def get_txt():
-    exp = pd.DataFrame(columns=['voltage', 'time', 'charge', 'soc'])
+def get_txt():  # Mathilda experimental data, also in her paper with Moritz
+    exp = pd.DataFrame(columns=['voltage', 'time', 'current', 'soc'])
     e = pd.read_csv('PSb_c20_2_Comsol.txt', sep='\t', header=None, names=['Column1', 'Column2', 'Column3'])
 
     t = e['Column1'].to_numpy()
@@ -115,7 +153,7 @@ def get_txt():
 
     exp['voltage'] = np.array(v)
     exp['time'] = np.array(t)
-    exp['charge'] = np.array(c)
+    exp['current'] = np.array(c)
     exp['soc'] = np.array(soc)
     return exp
 
