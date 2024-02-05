@@ -1,33 +1,6 @@
-import pandas as pd
-import numpy as np
-import dfols
 import mph
-import time
-
-
-def opt(settings):
-    bpars_list = settings["balancing_pars"]
-    x0 = np.hstack(np.array(bpars_list))
-    e = get_exp()
-    exp = tuple(e[['voltage', 'soc']].apply(tuple, axis=1))
-    bounds = settings["bounds"]
-    lbounds = np.array(bounds[0])
-    ubounds = np.array(bounds[1])
-
-    soln = dfols.solve(obj_fun, x0, args=(exp),
-                       bounds=(lbounds, ubounds),
-                       scaling_within_bounds=True, maxfun=50,
-                       user_params={"restarts.use_restarts": False, "restarts.use_soft_restarts": False,
-                                    "restarts.max_unsuccessful_restarts": 5},
-                       rhobeg=0.2, rhoend=1e-7, print_progress=True,
-                       )
-
-    print(soln)
-    x = soln.x
-    resid = soln.resid
-    opt_output = sim(x)
-
-    return x, opt_output, resid
+import numpy as np
+import pandas as pd
 
 
 def obj_fun(x, *args):
@@ -35,30 +8,9 @@ def obj_fun(x, *args):
     r = sim(x)
     re = tuple(r[['voltage', 'soc']].apply(tuple, axis=1))
 
-    minexp = len(e) - 10
-    minres = len(re)
-    # min_min = min([minexp, minres])-10
-    skip = 5
+    res = interp(e, re)
 
-    if minres >= minexp:
-        e = e[skip:minexp + skip]
-        exp = [element[0] for element in e]
-        re = re[skip:minexp + skip]
-        results = [element[0] for element in re]
-    else:
-        e = e[skip:minexp + skip]
-        exp = [element[0] for element in e]
-        # re = re[minres]
-        results = [element[0] for element in re]
-        zeros = ([0] * (minexp - minres))
-        results.extend([0] * (minexp - minres))
-
-    # interp_res =
-
-    res = [a - b for a, b in zip(results, exp)]
-    res = np.array(res)
-
-    #print(time.perf_counter())
+    # print(time.perf_counter())
     return res
 
 
@@ -79,6 +31,41 @@ def sim(x):
 
     results = get_results()
     return results
+
+
+def interp(e, re):
+    soc = np.linspace(1, 0, 100)
+    u_exp = [element[0] for element in e]
+    x_exp = [element[1] for element in e]
+    u_res = [element[0] for element in re]
+    x_res = [element[1] for element in re]
+
+    exp = np.interp(soc, np.array(x_exp), np.array(u_exp))
+    res = np.interp(soc, np.array(x_res), np.array(u_res))
+
+    res = [calculate_rms(a-b) for a, b in zip(res, exp)]
+    return res
+
+
+def length(e, re):
+    minexp = len(e) - 10
+    minres = len(re)
+    # min_min = min([minexp, minres])-10
+    skip = 5
+
+    if minres >= minexp:
+        e = e[skip:minexp + skip]
+        exp = [element[0] for element in e]
+        re = re[skip:minexp + skip]
+        results = [element[0] for element in re]
+    else:
+        e = e[skip:minexp + skip]
+        exp = [element[0] for element in e]
+        results = [element[0] for element in re]
+        results.extend([0] * (minexp - minres))
+
+    res = [calculate_rms(a-b) for a, b in zip(results, exp)]
+    return res
 
 
 def get_results():
@@ -110,6 +97,26 @@ def get_exp():
         exp['voltage'] = exp['voltage'].astype(float)
         exp['soc'] = exp['soc'].astype(float)
 
+    return exp
+
+
+def get_txt():
+    exp = pd.DataFrame(columns=['voltage', 'time', 'charge', 'soc'])
+    e = pd.read_csv('PSb_c20_2_Comsol.txt', sep='\t', header=None, names=['Column1', 'Column2', 'Column3'])
+
+    t = e['Column1'].to_numpy()
+    v = e['Column2'].to_numpy()
+    c = e['Column3'].to_numpy()
+
+    soc = []
+    for line in t:
+        soc_v = (t[-1] - line) / (t[-1] - t[0])
+        soc.append(soc_v)
+
+    exp['voltage'] = np.array(v)
+    exp['time'] = np.array(t)
+    exp['charge'] = np.array(c)
+    exp['soc'] = np.array(soc)
     return exp
 
 
