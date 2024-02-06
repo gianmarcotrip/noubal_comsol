@@ -19,7 +19,7 @@ def dfo(settings):
     ubounds = np.array(bounds[1])
 
     # Perform optimization
-    soln = dfols.solve(fun.obj_fun_dfols, x0, args=exp,
+    soln = dfols.solve(fun.obj_fun, x0, args=exp,
                        bounds=(lbounds, ubounds),
                        scaling_within_bounds=True, maxfun=1,
                        user_params={"restarts.use_restarts": False, "restarts.use_soft_restarts": False,
@@ -53,7 +53,7 @@ def pso(settings):
     optimizer = ps.single.LocalBestPSO(n_particles=10, dimensions=5, options=options, bounds=bounds)
 
     # Perform optimization
-    cost, pos = optimizer.optimize(fun.obj_fun_pso, iters=1, **exp_dict)
+    cost, pos = optimizer.optimize(fun.obj_fun, iters=1, **exp_dict)
 
     opt_output = fun.sim(pos)
     # Return in order: Optimized parameters, results of the simulation and residuals

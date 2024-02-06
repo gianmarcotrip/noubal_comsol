@@ -3,25 +3,24 @@ import numpy as np
 import pandas as pd
 import time
 
-''' DFOLS reads a tuple for experimental data while PSO a dictionary. Therefore they are initialized differently 
-but then the objective function is solved within the same definition f which account for both cases. 
-Smarter solution could be find '''
+'''DFOLS reads a tuple for experimental data and then simulates iteratively the single case that is gradually optimized.
+ Tee PSO reads a dictionary and then simulates for all the different cases at once. 
+ Therefore it is necessary to write down a cycle as each line in x is a particle.'''
 
 
-def obj_fun_dfols(x, *args):
-    exp = args
-    res = f(x, exp)
-    return res
+def obj_fun(x, *args, **kwargs):
+    exp = args if args else kwargs
 
+    if isinstance(exp, dict):
+        exp = exp['exp']
 
-def obj_fun_pso(x, **args):
-    exp = args
-    res = f(x, exp)
-    return res
+    if len(np.shape(x)) == 1:
+        r = sim(x)
+        re = tuple(r[['voltage', 'soc']].apply(tuple, axis=1))
 
-
-def f(x, exp):
-    if isinstance(x[0], list):
+        res = interp(exp, re)
+        # res = length(exp, re)
+    else:
         res = []
         for row in x:
             r = sim(row)
@@ -30,12 +29,6 @@ def f(x, exp):
             residual = interp(exp, re)
             # residual = length(exp, re)
             res.append(calculate_rms(residual))
-    else:
-        r = sim(x)
-        re = tuple(r[['voltage', 'soc']].apply(tuple, axis=1))
-
-        res = interp(exp, re)
-        # res = length(exp, re)
 
     print(time.perf_counter())
     return res
@@ -78,8 +71,8 @@ def interp(e, re):
     exp = np.interp(soc, np.array(x_exp), np.array(u_exp))
     res = np.interp(soc, np.array(x_res), np.array(u_res))
 
-    res = [(a-b) for a, b in zip(res, exp)]
-    return res
+    residual = [(a-b) for a, b in zip(res, exp)]
+    return residual
 
 
 def length(e, re):
