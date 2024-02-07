@@ -535,3 +535,607 @@ ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mism
 2024-02-06 16:16:58,234 - mph - INFO - Running export node "Discharge".
 2024-02-06 16:17:02,934 - mph - INFO - Finished running export.
 2024-02-06 16:20:47,514 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 13:56:16,349 - mph - INFO - Starting local Comsol session.
+2024-02-07 13:56:17,185 - mph - INFO - Starting Java virtual machine.
+2024-02-07 13:56:17,798 - mph - INFO - Java virtual machine has started.
+2024-02-07 13:56:18,871 - mph - INFO - Initializing stand-alone client.
+2024-02-07 13:56:21,191 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 13:56:21,193 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 13:56:21,194 - mph - INFO - Stand-alone client initialized.
+2024-02-07 13:56:21,196 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 13:56:31,647 - mph - INFO - Finished loading model.
+2024-02-07 13:56:31,781 - mph - INFO - Running study "Discharge".
+2024-02-07 13:57:03,828 - mph - INFO - Finished solving study.
+2024-02-07 13:57:03,864 - mph - INFO - Running export node "Discharge".
+2024-02-07 13:57:04,002 - mph - INFO - Finished running export.
+2024-02-07 13:59:28,357 - mph - INFO - Starting local Comsol session.
+2024-02-07 13:59:29,102 - mph - INFO - Starting Java virtual machine.
+2024-02-07 13:59:29,695 - mph - INFO - Java virtual machine has started.
+2024-02-07 13:59:30,753 - mph - INFO - Initializing stand-alone client.
+2024-02-07 13:59:32,899 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 13:59:32,903 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 13:59:32,903 - mph - INFO - Stand-alone client initialized.
+2024-02-07 13:59:32,905 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 13:59:43,109 - mph - INFO - Finished loading model.
+2024-02-07 13:59:43,359 - mph - INFO - Running study "Discharge".
+2024-02-07 14:00:15,216 - mph - INFO - Finished solving study.
+2024-02-07 14:00:15,250 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:00:15,398 - mph - INFO - Finished running export.
+2024-02-07 14:00:15,791 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:00:54,650 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:00:59,873 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:01:00,631 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:01:01,240 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:01:02,327 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:01:04,580 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:01:04,583 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:01:04,584 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:01:04,585 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:01:15,070 - mph - INFO - Finished loading model.
+2024-02-07 14:01:15,336 - mph - INFO - Running study "Discharge".
+2024-02-07 14:01:47,373 - mph - INFO - Finished solving study.
+2024-02-07 14:01:47,403 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:01:47,543 - mph - INFO - Finished running export.
+2024-02-07 14:02:52,193 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:02:52,928 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:02:53,536 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:02:54,593 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:02:56,775 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:02:56,779 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:02:56,780 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:02:56,783 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:03:07,349 - mph - INFO - Finished loading model.
+2024-02-07 14:03:07,451 - mph - INFO - Running study "Discharge".
+2024-02-07 14:03:39,372 - mph - INFO - Finished solving study.
+2024-02-07 14:03:39,403 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:03:39,562 - mph - INFO - Finished running export.
+2024-02-07 14:03:39,919 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:04:43,173 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:04:51,786 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:04:52,535 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:04:53,132 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:04:54,183 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:04:56,338 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:04:56,341 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:04:56,341 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:04:56,343 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:05:06,607 - mph - INFO - Finished loading model.
+2024-02-07 14:05:06,844 - mph - INFO - Running study "Discharge".
+2024-02-07 14:05:38,445 - mph - INFO - Finished solving study.
+2024-02-07 14:05:38,476 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:05:38,627 - mph - INFO - Finished running export.
+2024-02-07 14:05:38,973 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:12:23,178 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:12:23,931 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:12:24,522 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:12:25,569 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:12:27,695 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:12:27,698 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:12:27,698 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:12:27,700 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:12:38,037 - mph - INFO - Finished loading model.
+2024-02-07 14:12:38,144 - mph - INFO - Running study "Discharge".
+2024-02-07 14:13:14,854 - mph - INFO - Finished solving study.
+2024-02-07 14:13:14,885 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:13:15,028 - mph - INFO - Finished running export.
+2024-02-07 14:13:15,352 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:13:34,349 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:13:35,106 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:13:35,725 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:13:36,810 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:13:39,087 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:13:39,090 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:13:39,090 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:13:39,092 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:13:50,142 - mph - INFO - Finished loading model.
+2024-02-07 14:13:50,257 - mph - INFO - Running study "Discharge".
+2024-02-07 14:14:24,621 - mph - INFO - Finished solving study.
+2024-02-07 14:14:24,686 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:14:24,843 - mph - INFO - Finished running export.
+2024-02-07 14:14:25,306 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:15:54,134 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:15:54,890 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:15:55,503 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:15:56,560 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:15:58,707 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:15:58,710 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:15:58,711 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:15:58,713 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:16:08,888 - mph - INFO - Finished loading model.
+2024-02-07 14:16:09,133 - mph - INFO - Running study "Discharge".
+2024-02-07 14:16:41,705 - mph - INFO - Finished solving study.
+2024-02-07 14:16:41,735 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:16:41,884 - mph - INFO - Finished running export.
+2024-02-07 14:17:21,840 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:17:22,646 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:17:23,275 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:17:24,427 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:17:29,274 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:17:30,026 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:17:30,657 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:17:31,743 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:17:33,964 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:17:33,968 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:17:33,968 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:17:33,970 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:17:44,220 - mph - INFO - Finished loading model.
+2024-02-07 14:17:44,468 - mph - INFO - Running study "Discharge".
+2024-02-07 14:18:17,969 - mph - INFO - Finished solving study.
+2024-02-07 14:18:18,000 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:18:18,410 - mph - INFO - Finished running export.
+2024-02-07 14:18:18,885 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:21:18,948 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:21:19,677 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:21:20,280 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:21:21,332 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:21:23,618 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:21:23,621 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:21:23,621 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:21:23,623 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:21:34,070 - mph - INFO - Finished loading model.
+2024-02-07 14:21:34,307 - mph - INFO - Running study "Discharge".
+2024-02-07 14:22:05,739 - mph - INFO - Finished solving study.
+2024-02-07 14:22:05,787 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:22:05,932 - mph - INFO - Finished running export.
+2024-02-07 14:23:38,466 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:23:39,216 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:23:39,829 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:23:40,882 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:23:43,189 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:23:43,193 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:23:43,193 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:23:43,195 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:23:54,084 - mph - INFO - Finished loading model.
+2024-02-07 14:23:54,396 - mph - INFO - Running study "Discharge".
+2024-02-07 14:24:29,237 - mph - INFO - Finished solving study.
+2024-02-07 14:24:29,268 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:24:29,412 - mph - INFO - Finished running export.
+2024-02-07 14:27:46,699 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:27:47,435 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:27:48,053 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:27:49,138 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:27:51,176 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:27:51,181 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:27:51,181 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:27:51,183 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:28:02,131 - mph - INFO - Finished loading model.
+2024-02-07 14:28:02,244 - mph - INFO - Running study "Discharge".
+2024-02-07 14:28:35,072 - mph - INFO - Finished solving study.
+2024-02-07 14:28:35,106 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:28:35,246 - mph - INFO - Finished running export.
+2024-02-07 14:28:35,562 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:29:38,481 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:29:39,205 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:29:39,803 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:29:40,915 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:29:43,305 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:29:43,308 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:29:43,309 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:29:43,311 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:29:54,346 - mph - INFO - Finished loading model.
+2024-02-07 14:29:54,627 - mph - INFO - Running study "Discharge".
+2024-02-07 14:30:28,598 - mph - INFO - Finished solving study.
+2024-02-07 14:30:28,629 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:30:28,766 - mph - INFO - Finished running export.
+2024-02-07 14:31:19,786 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:31:20,542 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:31:21,137 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:31:22,230 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:31:24,356 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:31:24,359 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:31:24,360 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:31:24,361 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:31:35,009 - mph - INFO - Finished loading model.
+2024-02-07 14:31:35,119 - mph - INFO - Running study "Discharge".
+2024-02-07 14:32:06,143 - mph - INFO - Finished solving study.
+2024-02-07 14:32:06,216 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:32:06,358 - mph - INFO - Finished running export.
+2024-02-07 14:32:06,653 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 14:32:27,186 - mph - INFO - Starting local Comsol session.
+2024-02-07 14:32:27,921 - mph - INFO - Starting Java virtual machine.
+2024-02-07 14:32:28,531 - mph - INFO - Java virtual machine has started.
+2024-02-07 14:32:29,594 - mph - INFO - Initializing stand-alone client.
+2024-02-07 14:32:31,764 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 14:32:31,767 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 14:32:31,768 - mph - INFO - Stand-alone client initialized.
+2024-02-07 14:32:31,769 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 14:32:41,777 - mph - INFO - Finished loading model.
+2024-02-07 14:32:41,886 - mph - INFO - Running study "Discharge".
+2024-02-07 14:33:12,600 - mph - INFO - Finished solving study.
+2024-02-07 14:33:12,633 - mph - INFO - Running export node "Discharge".
+2024-02-07 14:33:12,821 - mph - INFO - Finished running export.
+2024-02-07 15:01:07,319 - mph - INFO - Starting local Comsol session.
+2024-02-07 15:01:08,054 - mph - INFO - Starting Java virtual machine.
+2024-02-07 15:01:08,648 - mph - INFO - Java virtual machine has started.
+2024-02-07 15:01:09,701 - mph - INFO - Initializing stand-alone client.
+2024-02-07 15:01:11,898 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 15:01:11,902 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 15:01:11,902 - mph - INFO - Stand-alone client initialized.
+2024-02-07 15:01:11,904 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 15:01:22,230 - mph - INFO - Finished loading model.
+2024-02-07 15:01:22,344 - mph - INFO - Running study "Discharge".
+2024-02-07 15:01:54,301 - mph - INFO - Finished solving study.
+2024-02-07 15:01:54,336 - mph - INFO - Running export node "Discharge".
+2024-02-07 15:01:54,500 - mph - INFO - Finished running export.
+2024-02-07 15:02:30,774 - mph - INFO - Starting local Comsol session.
+2024-02-07 15:02:31,521 - mph - INFO - Starting Java virtual machine.
+2024-02-07 15:02:32,113 - mph - INFO - Java virtual machine has started.
+2024-02-07 15:02:33,163 - mph - INFO - Initializing stand-alone client.
+2024-02-07 15:02:35,430 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 15:02:35,437 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 15:02:35,438 - mph - INFO - Stand-alone client initialized.
+2024-02-07 15:02:35,440 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 15:02:46,016 - mph - INFO - Finished loading model.
+2024-02-07 15:02:46,121 - mph - INFO - Running study "Discharge".
+2024-02-07 15:03:17,562 - mph - INFO - Finished solving study.
+2024-02-07 15:03:17,596 - mph - INFO - Running export node "Discharge".
+2024-02-07 15:03:17,746 - mph - INFO - Finished running export.
+2024-02-07 15:38:08,048 - mph - INFO - Starting local Comsol session.
+2024-02-07 15:38:08,831 - mph - INFO - Starting Java virtual machine.
+2024-02-07 15:38:09,433 - mph - INFO - Java virtual machine has started.
+2024-02-07 15:38:10,492 - mph - INFO - Initializing stand-alone client.
+2024-02-07 15:38:12,730 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 15:38:12,733 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 15:38:12,733 - mph - INFO - Stand-alone client initialized.
+2024-02-07 15:38:12,735 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 15:38:22,989 - mph - INFO - Finished loading model.
+2024-02-07 15:38:23,103 - mph - INFO - Running study "Discharge".
+2024-02-07 15:38:54,268 - mph - INFO - Finished solving study.
+2024-02-07 15:38:54,297 - mph - INFO - Running export node "Discharge".
+2024-02-07 15:38:54,442 - mph - INFO - Finished running export.
+2024-02-07 16:08:30,893 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:08:31,643 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:08:32,241 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:08:33,285 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:08:35,730 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:08:35,733 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:08:35,734 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:08:35,736 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:08:46,545 - mph - INFO - Finished loading model.
+2024-02-07 16:08:46,785 - mph - INFO - Running study "Discharge".
+2024-02-07 16:09:18,439 - mph - INFO - Finished solving study.
+2024-02-07 16:09:18,471 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:09:18,615 - mph - INFO - Finished running export.
+2024-02-07 16:09:18,968 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 16:11:38,005 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:11:38,741 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:11:39,328 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:11:40,356 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:11:42,605 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:11:42,607 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:11:42,608 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:11:42,609 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:11:53,330 - mph - INFO - Finished loading model.
+2024-02-07 16:11:53,436 - mph - INFO - Running study "Discharge".
+2024-02-07 16:11:53,561 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 16:15:01,813 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:15:02,504 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:15:03,094 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:15:04,128 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:15:06,401 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:15:06,405 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:15:06,405 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:15:06,407 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:15:17,183 - mph - INFO - Finished loading model.
+2024-02-07 16:15:17,470 - mph - INFO - Running study "Discharge".
+2024-02-07 16:15:17,595 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 16:15:50,582 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:15:51,309 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:15:51,910 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:15:52,962 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:15:55,197 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:15:55,200 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:15:55,200 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:15:55,202 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:16:05,825 - mph - INFO - Finished loading model.
+2024-02-07 16:16:05,937 - mph - INFO - Running study "Discharge".
+2024-02-07 16:16:15,328 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 16:17:16,934 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:17:17,613 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:17:18,197 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:17:19,218 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:17:21,526 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:17:21,529 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:17:21,529 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:17:21,531 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:17:32,050 - mph - INFO - Finished loading model.
+2024-02-07 16:17:32,291 - mph - INFO - Running study "Discharge".
+2024-02-07 16:18:04,913 - mph - INFO - Finished solving study.
+2024-02-07 16:18:04,940 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:18:10,229 - mph - INFO - Finished running export.
+2024-02-07 16:18:10,752 - dfols.util - INFO - Function eval 1 at point 1 has f = 54.2937328263521 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 16:18:10,753 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 16:18:10,754 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 16:18:10,754 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 16:18:10,756 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:18:12,406 - mph - INFO - Finished loading model.
+2024-02-07 16:18:12,451 - mph - INFO - Running study "Discharge".
+2024-02-07 16:18:42,933 - mph - INFO - Finished solving study.
+2024-02-07 16:18:42,936 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:18:48,121 - mph - INFO - Finished running export.
+2024-02-07 16:18:53,852 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 16:22:57,525 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:22:58,265 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:22:58,867 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:22:59,896 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:23:02,142 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:23:02,144 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:23:02,145 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:23:02,146 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:23:12,625 - mph - INFO - Finished loading model.
+2024-02-07 16:23:12,732 - mph - INFO - Running study "Discharge".
+2024-02-07 16:23:44,611 - mph - INFO - Finished solving study.
+2024-02-07 16:23:44,641 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:23:49,669 - mph - INFO - Finished running export.
+2024-02-07 16:23:50,201 - dfols.util - INFO - Function eval 1 at point 1 has f = 54.2937328264335 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 16:23:50,208 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 16:23:50,208 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 16:23:50,209 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 16:23:50,210 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:23:51,896 - mph - INFO - Finished loading model.
+2024-02-07 16:23:51,936 - mph - INFO - Running study "Discharge".
+2024-02-07 16:24:19,553 - mph - INFO - Finished solving study.
+2024-02-07 16:24:19,555 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:24:24,425 - mph - INFO - Finished running export.
+2024-02-07 16:25:08,909 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 16:25:14,638 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:25:15,359 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:25:15,965 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:25:17,007 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:25:19,442 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:25:19,445 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:25:19,445 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:25:19,447 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:25:31,346 - mph - INFO - Finished loading model.
+2024-02-07 16:25:31,470 - mph - INFO - Running study "Discharge".
+2024-02-07 16:26:13,365 - mph - INFO - Finished solving study.
+2024-02-07 16:26:13,400 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:26:19,860 - mph - INFO - Finished running export.
+2024-02-07 16:26:20,382 - dfols.util - INFO - Function eval 1 at point 1 has f = 54.2937328264663 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 16:26:20,383 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 16:26:20,383 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 16:26:20,384 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 16:26:20,386 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:26:22,091 - mph - INFO - Finished loading model.
+2024-02-07 16:26:22,148 - mph - INFO - Running study "Discharge".
+2024-02-07 16:26:52,311 - mph - INFO - Finished solving study.
+2024-02-07 16:26:52,314 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:26:57,695 - mph - INFO - Finished running export.
+2024-02-07 16:39:08,412 - mph - INFO - Starting local Comsol session.
+2024-02-07 16:39:09,144 - mph - INFO - Starting Java virtual machine.
+2024-02-07 16:39:09,748 - mph - INFO - Java virtual machine has started.
+2024-02-07 16:39:10,922 - mph - INFO - Initializing stand-alone client.
+2024-02-07 16:39:13,460 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 16:39:13,463 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 16:39:13,463 - mph - INFO - Stand-alone client initialized.
+2024-02-07 16:39:13,465 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:39:25,892 - mph - INFO - Finished loading model.
+2024-02-07 16:39:26,001 - mph - INFO - Running study "Discharge".
+2024-02-07 16:40:00,957 - mph - INFO - Finished solving study.
+2024-02-07 16:40:00,991 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:40:06,213 - mph - INFO - Finished running export.
+2024-02-07 16:40:06,725 - dfols.util - INFO - Function eval 1 at point 1 has f = 54.2937328264317 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 16:40:06,725 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 16:40:06,725 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 16:40:06,726 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 16:40:06,727 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 16:40:08,381 - mph - INFO - Finished loading model.
+2024-02-07 16:40:08,425 - mph - INFO - Running study "Discharge".
+2024-02-07 16:40:39,545 - mph - INFO - Finished solving study.
+2024-02-07 16:40:39,547 - mph - INFO - Running export node "Discharge".
+2024-02-07 16:40:44,869 - mph - INFO - Finished running export.
+2024-02-07 16:40:45,194 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 17:02:28,221 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:02:28,962 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:02:29,563 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:02:30,707 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:02:32,985 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:02:32,988 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:02:32,989 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:02:32,990 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:02:44,106 - mph - INFO - Finished loading model.
+2024-02-07 17:02:44,221 - mph - INFO - Running study "Discharge".
+2024-02-07 17:03:20,675 - mph - INFO - Finished solving study.
+2024-02-07 17:03:20,713 - mph - INFO - Running export node "Discharge".
+2024-02-07 17:03:26,873 - mph - INFO - Finished running export.
+2024-02-07 17:03:27,406 - dfols.util - INFO - Function eval 1 at point 1 has f = 54.2937328264662 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 17:03:27,406 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 17:03:27,407 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 17:03:27,407 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 17:03:27,408 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:03:29,246 - mph - INFO - Finished loading model.
+2024-02-07 17:03:29,297 - mph - INFO - Running study "Discharge".
+2024-02-07 17:04:01,030 - mph - INFO - Finished solving study.
+2024-02-07 17:04:01,033 - mph - INFO - Running export node "Discharge".
+2024-02-07 17:04:07,857 - mph - INFO - Finished running export.
+2024-02-07 17:04:08,194 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 17:12:05,345 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:12:06,239 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:12:06,931 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:12:08,078 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:12:10,874 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:12:10,877 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:12:10,877 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:12:10,879 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:12:21,611 - mph - INFO - Finished loading model.
+2024-02-07 17:12:21,738 - mph - INFO - Running study "Discharge".
+2024-02-07 17:12:54,417 - mph - INFO - Finished solving study.
+2024-02-07 17:12:54,445 - mph - INFO - Running export node "Discharge".
+2024-02-07 17:12:59,222 - mph - INFO - Finished running export.
+2024-02-07 17:12:59,782 - dfols.util - INFO - Function eval 1 at point 1 has f = 54.2937328264859 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 17:12:59,783 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 17:12:59,783 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 17:12:59,783 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 17:12:59,785 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:13:01,642 - mph - INFO - Finished loading model.
+2024-02-07 17:13:01,686 - mph - INFO - Running study "Discharge".
+2024-02-07 17:13:29,687 - mph - INFO - Finished solving study.
+2024-02-07 17:13:29,690 - mph - INFO - Running export node "Discharge".
+2024-02-07 17:13:34,350 - mph - INFO - Finished running export.
+2024-02-07 17:16:18,147 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 17:34:06,947 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:34:07,696 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:34:08,313 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:34:09,384 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:34:11,733 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:34:11,737 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:34:11,737 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:34:11,739 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:34:16,969 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:34:17,714 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:34:18,328 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:34:19,390 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:34:21,694 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:34:21,698 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:34:21,699 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:34:21,701 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:34:32,106 - mph - INFO - Finished loading model.
+2024-02-07 17:34:32,220 - mph - INFO - Running study "Discharge".
+2024-02-07 17:35:02,816 - mph - INFO - Finished solving study.
+2024-02-07 17:35:02,855 - mph - INFO - Running export node "Discharge".
+2024-02-07 17:35:08,098 - mph - INFO - Finished running export.
+2024-02-07 17:35:08,596 - dfols.util - INFO - Function eval 1 at point 1 has f = 54.2937328264754 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 17:35:08,597 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 17:35:08,598 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 17:35:08,599 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 17:35:08,600 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:35:10,175 - mph - INFO - Finished loading model.
+2024-02-07 17:35:10,217 - mph - INFO - Running study "Discharge".
+2024-02-07 17:36:18,213 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:36:18,931 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:36:19,532 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:36:20,599 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:36:22,763 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:36:22,766 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:36:22,766 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:36:22,768 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:36:32,995 - mph - INFO - Finished loading model.
+2024-02-07 17:36:33,106 - mph - INFO - Running study "Discharge".
+2024-02-07 17:36:57,028 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:36:57,776 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:36:58,373 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:36:59,418 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:37:01,669 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:37:01,672 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:37:01,672 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:37:01,674 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:37:12,407 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:37:13,145 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:37:13,744 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:37:14,787 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:37:17,068 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:37:17,071 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:37:17,071 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:37:17,073 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 17:37:31,372 - mph - INFO - Starting local Comsol session.
+2024-02-07 17:37:32,113 - mph - INFO - Starting Java virtual machine.
+2024-02-07 17:37:32,712 - mph - INFO - Java virtual machine has started.
+2024-02-07 17:37:33,757 - mph - INFO - Initializing stand-alone client.
+2024-02-07 17:37:36,013 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 17:37:36,016 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 17:37:36,017 - mph - INFO - Stand-alone client initialized.
+2024-02-07 17:37:36,018 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:20:54,722 - mph - INFO - Starting local Comsol session.
+2024-02-07 18:20:55,424 - mph - INFO - Starting Java virtual machine.
+2024-02-07 18:20:56,015 - mph - INFO - Java virtual machine has started.
+2024-02-07 18:20:57,048 - mph - INFO - Initializing stand-alone client.
+2024-02-07 18:20:59,372 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 18:20:59,375 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 18:20:59,375 - mph - INFO - Stand-alone client initialized.
+2024-02-07 18:20:59,377 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:21:09,680 - mph - INFO - Finished loading model.
+2024-02-07 18:21:09,781 - mph - INFO - Running study "Discharge".
+2024-02-07 18:21:40,909 - mph - INFO - Finished solving study.
+2024-02-07 18:21:40,940 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:21:45,635 - mph - INFO - Finished running export.
+2024-02-07 18:21:46,090 - dfols.util - INFO - Function eval 1 at point 1 has f = 1.79769313486232e+308 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 18:21:46,090 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 18:21:46,091 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 18:21:46,091 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 18:21:46,092 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:21:47,799 - mph - INFO - Finished loading model.
+2024-02-07 18:21:47,846 - mph - INFO - Running study "Discharge".
+2024-02-07 18:22:16,591 - mph - INFO - Finished solving study.
+2024-02-07 18:22:16,593 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:22:21,459 - mph - INFO - Finished running export.
+2024-02-07 18:22:30,298 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 18:28:59,530 - mph - INFO - Starting local Comsol session.
+2024-02-07 18:29:00,278 - mph - INFO - Starting Java virtual machine.
+2024-02-07 18:29:00,945 - mph - INFO - Java virtual machine has started.
+2024-02-07 18:29:02,010 - mph - INFO - Initializing stand-alone client.
+2024-02-07 18:29:04,308 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 18:29:04,311 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 18:29:04,312 - mph - INFO - Stand-alone client initialized.
+2024-02-07 18:29:04,314 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:29:53,890 - mph - INFO - Starting local Comsol session.
+2024-02-07 18:29:54,624 - mph - INFO - Starting Java virtual machine.
+2024-02-07 18:29:55,208 - mph - INFO - Java virtual machine has started.
+2024-02-07 18:29:56,239 - mph - INFO - Initializing stand-alone client.
+2024-02-07 18:29:58,639 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 18:29:58,642 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 18:29:58,642 - mph - INFO - Stand-alone client initialized.
+2024-02-07 18:29:58,644 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:30:08,894 - mph - INFO - Finished loading model.
+2024-02-07 18:30:09,138 - mph - INFO - Running study "Discharge".
+2024-02-07 18:30:42,695 - mph - INFO - Finished solving study.
+2024-02-07 18:30:42,731 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:30:47,944 - mph - INFO - Finished running export.
+2024-02-07 18:30:48,509 - dfols.util - INFO - Function eval 1 at point 1 has f = 1.79769313486232e+308 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 18:30:48,510 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 18:30:48,510 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 18:30:48,511 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 18:30:48,512 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:30:50,399 - mph - INFO - Finished loading model.
+2024-02-07 18:30:50,456 - mph - INFO - Running study "Discharge".
+2024-02-07 18:31:18,802 - mph - INFO - Finished solving study.
+2024-02-07 18:31:18,804 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:31:23,485 - mph - INFO - Finished running export.
+2024-02-07 18:31:30,086 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 18:31:47,060 - mph - INFO - Starting local Comsol session.
+2024-02-07 18:31:47,777 - mph - INFO - Starting Java virtual machine.
+2024-02-07 18:31:48,363 - mph - INFO - Java virtual machine has started.
+2024-02-07 18:31:49,386 - mph - INFO - Initializing stand-alone client.
+2024-02-07 18:31:51,536 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 18:31:51,539 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 18:31:51,540 - mph - INFO - Stand-alone client initialized.
+2024-02-07 18:31:51,541 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:32:01,595 - mph - INFO - Finished loading model.
+2024-02-07 18:32:01,833 - mph - INFO - Running study "Discharge".
+2024-02-07 18:32:32,245 - mph - INFO - Finished solving study.
+2024-02-07 18:32:32,275 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:32:37,185 - mph - INFO - Finished running export.
+2024-02-07 18:32:37,651 - dfols.util - INFO - Function eval 1 at point 1 has f = 1.79769313486232e+308 at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 18:32:37,652 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 18:32:37,652 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 18:32:37,652 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 18:32:37,654 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:32:39,455 - mph - INFO - Finished loading model.
+2024-02-07 18:32:39,496 - mph - INFO - Running study "Discharge".
+2024-02-07 18:33:09,177 - mph - INFO - Finished solving study.
+2024-02-07 18:33:09,179 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:33:14,848 - mph - INFO - Finished running export.
+2024-02-07 18:33:26,989 - mph - INFO - Exiting the Java virtual machine.
+2024-02-07 18:34:37,600 - mph - INFO - Starting local Comsol session.
+2024-02-07 18:34:38,281 - mph - INFO - Starting Java virtual machine.
+2024-02-07 18:34:38,860 - mph - INFO - Java virtual machine has started.
+2024-02-07 18:34:39,879 - mph - INFO - Initializing stand-alone client.
+2024-02-07 18:34:42,316 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-07 18:34:42,318 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-07 18:34:42,319 - mph - INFO - Stand-alone client initialized.
+2024-02-07 18:34:42,320 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:34:54,941 - mph - INFO - Finished loading model.
+2024-02-07 18:34:55,218 - mph - INFO - Running study "Discharge".
+2024-02-07 18:35:31,040 - mph - INFO - Finished solving study.
+2024-02-07 18:35:31,074 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:35:36,508 - mph - INFO - Finished running export.
+2024-02-07 18:35:37,103 - dfols.util - INFO - Function eval 1 at point 1 has f = nan at x = [0.01 0.01 0.01 0.01 0.01]
+2024-02-07 18:35:37,104 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-07 18:35:37,105 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-07 18:35:37,105 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-07 18:35:37,106 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-07 18:35:39,046 - mph - INFO - Finished loading model.
+2024-02-07 18:35:39,121 - mph - INFO - Running study "Discharge".
+2024-02-07 18:36:10,427 - mph - INFO - Finished solving study.
+2024-02-07 18:36:10,431 - mph - INFO - Running export node "Discharge".
+2024-02-07 18:36:15,365 - mph - INFO - Finished running export.
+2024-02-07 18:54:01,990 - mph - INFO - Exiting the Java virtual machine.
