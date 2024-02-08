@@ -10,7 +10,7 @@ def dfo(settings):
     # Optimizer input arguments
     bpars_list = settings["balancing_pars"]
     x0 = np.hstack(np.array(bpars_list))
-    e = fun.get_exp()
+    e = settings["exp"]
     exp = tuple(e[['time', 'voltage', 'current', 'soc']].apply(tuple, axis=1))
 
     # Create bounds
@@ -22,16 +22,16 @@ def dfo(settings):
     if settings["dva"] == 'True':
         soln = dfols.solve(fun.obj_fun_dva, x0, args=exp,
                            bounds=(lbounds, ubounds),
-                           scaling_within_bounds=True, maxfun=1,
-                           user_params={"restarts.use_restarts": False, "restarts.use_soft_restarts": False,
+                           scaling_within_bounds=True, maxfun=100,
+                           user_params={"restarts.use_restarts": True, "restarts.use_soft_restarts": False,
                                         "restarts.max_unsuccessful_restarts": 5},
                            rhobeg=0.2, rhoend=1e-7, print_progress=True,
                            )
     else:
         soln = dfols.solve(fun.obj_fun, x0, args=exp,
                            bounds=(lbounds, ubounds),
-                           scaling_within_bounds=True, maxfun=1,
-                           user_params={"restarts.use_restarts": False, "restarts.use_soft_restarts": False,
+                           scaling_within_bounds=True, maxfun=100,
+                           user_params={"restarts.use_restarts": True, "restarts.use_soft_restarts": False,
                                         "restarts.max_unsuccessful_restarts": 5},
                            rhobeg=0.2, rhoend=1e-7, print_progress=True,
                            )
@@ -50,21 +50,21 @@ def pso(settings):
     bounds = (lbounds, ubounds)
 
     # Optimizer input arguments
-    e = fun.get_exp()
+    e = settings["exp"]
     exp = tuple(e[['time', 'voltage', 'current', 'soc']].apply(tuple, axis=1))
     exp_dict = {'exp': exp}
 
     # Set-up hyperparameters
-    options = {'c1': 0.5, 'c2': 0.3, 'w': 0.9, 'k': 5, 'p': 5}
+    options = {'c1': 0.5, 'c2': 0.3, 'w': 0.9, 'k': len(lbounds), 'p': len(lbounds)}
 
     # Call instance of PSO
-    optimizer = ps.single.LocalBestPSO(n_particles=10, dimensions=5, options=options, bounds=bounds)
+    optimizer = ps.single.LocalBestPSO(n_particles=10, dimensions=len(lbounds), options=options, bounds=bounds)
 
     # Perform optimization
     if settings["dva"] == 'True':
-        cost, pos = optimizer.optimize(fun.obj_fun_dva, iters=1, **exp_dict)
+        cost, pos = optimizer.optimize(fun.obj_fun_dva, iters=10, **exp_dict)
     else:
-        cost, pos = optimizer.optimize(fun.obj_fun, iters=1, **exp_dict)
+        cost, pos = optimizer.optimize(fun.obj_fun, iters=10, **exp_dict)
 
     opt_output = fun.sim(pos)
     # Return in order: Optimized parameters, results of the simulation and residuals

@@ -60,14 +60,14 @@ def obj_fun_dva(x, *args, **kwargs):
 
 def sim(x):
     client = mph.start()
-    model = client.load('li_battery_2d_NMC-Gr.mph')
+    model = client.load('li_battery_2d_Mathilda_1Domain.mph')
 
     # model.parameter('h1', x[0])              #Share of heterogeneous region 1 [h2=1-h1]
     model.parameter('LI_loss', x[0])       # Loss of lithium inventory
     model.parameter('epss_ia_pos1', x[1])  # Inactive phase volume fraction, pos el, region 1
-    model.parameter('epss_ia_pos2', x[2])  # Inactive phase volume fraction, pos el, region 2
-    model.parameter('epss_ia_neg1', x[3])  # Inactive phase volume fraction, neg el, region 1
-    model.parameter('epss_ia_neg2', x[4])  # Inactive phase volume fraction, neg el, region 1
+    # model.parameter('epss_ia_pos2', x[2])  # Inactive phase volume fraction, pos el, region 2
+    model.parameter('epss_ia_neg1', x[2])  # Inactive phase volume fraction, neg el, region 1
+    # model.parameter('epss_ia_neg2', x[4])  # Inactive phase volume fraction, neg el, region 1
 
     model.solve('Discharge')
     model.export()
@@ -84,10 +84,10 @@ The second relies purely on the length of the vectors.'''
 
 def interp(e, re):
     soc = np.linspace(1, 0, 100)
-    u_exp = [element[2] for element in e]
-    x_exp = [element[4] for element in e]
-    u_res = [element[2] for element in re]
-    x_res = [element[4] for element in re]
+    u_exp = [element[1] for element in e]
+    x_exp = [element[3] for element in e]
+    u_res = [element[1] for element in re]
+    x_res = [element[3] for element in re]
 
     exp = np.interp(soc, np.array(x_exp), np.array(u_exp))
     res = np.interp(soc, np.array(x_res), np.array(u_res))
@@ -97,12 +97,12 @@ def interp(e, re):
 
 
 def interp_dva(e, re):
-    t_exp = [element[1] for element in e]
-    u_exp = [element[2] for element in e]
-    c_exp = [element[3] for element in e]
-    t_res = [element[1] for element in re]
-    u_res = [element[2] for element in re]
-    c_res = [element[3] for element in re]
+    t_exp = [element[0] for element in e]
+    u_exp = [element[1] for element in e]
+    c_exp = [element[2] for element in e]
+    t_res = [element[0] for element in re]
+    u_res = [element[1] for element in re]
+    c_res = [element[2] for element in re]
 
     Qs_e, Es_e, dvdq_e, dqdv_e = differential.dvdq_maria(u_exp, c_exp, t_exp)
     Qs_r, Es_r, dvdq_r, dqdv_r = differential.dvdq_maria(u_res, c_res, t_res)

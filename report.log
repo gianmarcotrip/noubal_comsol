@@ -1139,3 +1139,1771 @@ ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mism
 2024-02-07 18:36:10,431 - mph - INFO - Running export node "Discharge".
 2024-02-07 18:36:15,365 - mph - INFO - Finished running export.
 2024-02-07 18:54:01,990 - mph - INFO - Exiting the Java virtual machine.
+2024-02-08 10:47:35,207 - pyswarms.single.local_best - INFO - Optimize for 10 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9, 'k': 5, 'p': 5}
+2024-02-08 10:47:35,221 - mph - INFO - Starting local Comsol session.
+2024-02-08 10:47:36,025 - mph - INFO - Starting Java virtual machine.
+2024-02-08 10:47:36,623 - mph - INFO - Java virtual machine has started.
+2024-02-08 10:47:37,677 - mph - INFO - Initializing stand-alone client.
+2024-02-08 10:47:40,042 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 10:47:40,045 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 10:47:40,045 - mph - INFO - Stand-alone client initialized.
+2024-02-08 10:47:40,047 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 10:47:53,006 - mph - INFO - Finished loading model.
+2024-02-08 10:47:53,100 - mph - INFO - Running study "Discharge".
+2024-02-08 10:48:27,599 - mph - INFO - Finished solving study.
+2024-02-08 10:48:27,630 - mph - INFO - Running export node "Discharge".
+2024-02-08 10:48:33,776 - mph - INFO - Finished running export.
+2024-02-08 10:48:34,310 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 10:48:34,310 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 10:48:36,066 - mph - INFO - Finished loading model.
+2024-02-08 10:48:36,114 - mph - INFO - Running study "Discharge".
+2024-02-08 10:48:58,163 - mph - INFO - Finished solving study.
+2024-02-08 10:48:58,163 - mph - INFO - Running export node "Discharge".
+2024-02-08 10:49:04,439 - mph - INFO - Finished running export.
+2024-02-08 10:49:04,773 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 10:49:04,773 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 10:49:06,280 - mph - INFO - Finished loading model.
+2024-02-08 10:49:06,327 - mph - INFO - Running study "Discharge".
+2024-02-08 10:49:41,551 - mph - INFO - Finished solving study.
+2024-02-08 10:49:41,554 - mph - INFO - Running export node "Discharge".
+2024-02-08 10:49:47,038 - mph - INFO - Finished running export.
+2024-02-08 10:49:47,383 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 10:49:47,383 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 10:49:48,653 - mph - INFO - Finished loading model.
+2024-02-08 10:49:48,684 - mph - INFO - Running study "Discharge".
+2024-02-08 10:50:04,461 - mph - INFO - Exiting the Java virtual machine.
+2024-02-08 11:30:01,953 - pyswarms.single.local_best - INFO - Optimize for 10 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9, 'k': 5, 'p': 5}
+2024-02-08 11:30:01,958 - mph - INFO - Starting local Comsol session.
+2024-02-08 11:30:02,792 - mph - INFO - Starting Java virtual machine.
+2024-02-08 11:30:03,443 - mph - INFO - Java virtual machine has started.
+2024-02-08 11:30:04,523 - mph - INFO - Initializing stand-alone client.
+2024-02-08 11:30:06,943 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 11:30:06,946 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 11:30:06,946 - mph - INFO - Stand-alone client initialized.
+2024-02-08 11:30:06,948 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:30:17,250 - mph - INFO - Finished loading model.
+2024-02-08 11:30:17,360 - mph - INFO - Running study "Discharge".
+2024-02-08 11:30:52,453 - mph - INFO - Finished solving study.
+2024-02-08 11:30:52,485 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:30:57,783 - mph - INFO - Finished running export.
+2024-02-08 11:30:58,300 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:30:58,300 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:31:00,132 - mph - INFO - Finished loading model.
+2024-02-08 11:31:00,179 - mph - INFO - Running study "Discharge".
+2024-02-08 11:31:29,237 - mph - INFO - Finished solving study.
+2024-02-08 11:31:29,237 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:31:34,613 - mph - INFO - Finished running export.
+2024-02-08 11:31:34,911 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:31:34,911 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:31:36,366 - mph - INFO - Finished loading model.
+2024-02-08 11:31:36,429 - mph - INFO - Running study "Discharge".
+2024-02-08 11:32:01,253 - mph - INFO - Finished solving study.
+2024-02-08 11:32:01,253 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:32:06,710 - mph - INFO - Finished running export.
+2024-02-08 11:32:07,021 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:32:07,021 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:32:08,291 - mph - INFO - Finished loading model.
+2024-02-08 11:32:08,338 - mph - INFO - Running study "Discharge".
+2024-02-08 11:32:36,113 - mph - INFO - Finished solving study.
+2024-02-08 11:32:36,113 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:32:42,044 - mph - INFO - Finished running export.
+2024-02-08 11:32:42,380 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:32:42,380 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:32:43,620 - mph - INFO - Finished loading model.
+2024-02-08 11:32:43,652 - mph - INFO - Running study "Discharge".
+2024-02-08 11:33:18,667 - mph - INFO - Finished solving study.
+2024-02-08 11:33:18,670 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:33:25,037 - mph - INFO - Finished running export.
+2024-02-08 11:33:25,367 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:33:25,367 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:33:26,403 - mph - INFO - Finished loading model.
+2024-02-08 11:33:26,434 - mph - INFO - Running study "Discharge".
+2024-02-08 11:33:48,264 - mph - INFO - Finished solving study.
+2024-02-08 11:33:48,264 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:33:53,480 - mph - INFO - Finished running export.
+2024-02-08 11:33:53,786 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:33:53,786 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:33:54,774 - mph - INFO - Finished loading model.
+2024-02-08 11:33:54,805 - mph - INFO - Running study "Discharge".
+2024-02-08 11:34:14,464 - mph - INFO - Finished solving study.
+2024-02-08 11:34:14,465 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:34:20,027 - mph - INFO - Finished running export.
+2024-02-08 11:34:20,341 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:34:20,341 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:34:21,345 - mph - INFO - Finished loading model.
+2024-02-08 11:34:21,377 - mph - INFO - Running study "Discharge".
+2024-02-08 11:34:47,919 - mph - INFO - Finished solving study.
+2024-02-08 11:34:47,934 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:34:53,396 - mph - INFO - Finished running export.
+2024-02-08 11:34:53,773 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:34:53,773 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:34:55,144 - mph - INFO - Finished loading model.
+2024-02-08 11:34:55,191 - mph - INFO - Running study "Discharge".
+2024-02-08 11:35:26,000 - mph - INFO - Finished solving study.
+2024-02-08 11:35:26,004 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:35:32,390 - mph - INFO - Finished running export.
+2024-02-08 11:35:32,683 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:35:32,683 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:35:33,695 - mph - INFO - Finished loading model.
+2024-02-08 11:35:33,726 - mph - INFO - Running study "Discharge".
+2024-02-08 11:35:57,053 - mph - INFO - Finished solving study.
+2024-02-08 11:35:57,053 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:36:01,946 - mph - INFO - Finished running export.
+2024-02-08 11:36:02,291 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:36:02,291 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:36:03,236 - mph - INFO - Finished loading model.
+2024-02-08 11:36:03,264 - mph - INFO - Running study "Discharge".
+2024-02-08 11:36:19,515 - mph - INFO - Finished solving study.
+2024-02-08 11:36:19,515 - mph - INFO - Running export node "Discharge".
+2024-02-08 11:36:24,738 - mph - INFO - Finished running export.
+2024-02-08 11:36:25,067 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 11:36:25,067 - mph - INFO - Loading model "li_battery_2d_NMC-Gr.mph".
+2024-02-08 11:36:26,009 - mph - INFO - Finished loading model.
+2024-02-08 11:36:26,024 - mph - INFO - Running study "Discharge".
+2024-02-08 11:36:39,717 - mph - INFO - Exiting the Java virtual machine.
+2024-02-08 16:04:21,903 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (5,)
+Traceback (most recent call last):
+  File "C:\Users\gmtr\PycharmProjects\noubal_comsol\venv\Lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+                   ^^^^^^^^^^^^^^^^^^
+  File "numpy\\random\\mtrand.pyx", line 1171, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 600, in numpy.random._common.cont
+  File "_common.pyx", line 517, in numpy.random._common.cont_broadcast_2
+  File "__init__.cython-30.pxd", line 780, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 5) and arg 1 with shape (10, 3).
+2024-02-08 16:05:34,479 - pyswarms.backend.generators - ERROR - Bounds and/or init_pos should be of size (2,)
+Traceback (most recent call last):
+  File "C:\Users\gmtr\PycharmProjects\noubal_comsol\venv\Lib\site-packages\pyswarms\backend\generators.py", line 81, in generate_swarm
+    pos = center * np.random.uniform(
+                   ^^^^^^^^^^^^^^^^^^
+  File "numpy\\random\\mtrand.pyx", line 1171, in numpy.random.mtrand.RandomState.uniform
+  File "_common.pyx", line 600, in numpy.random._common.cont
+  File "_common.pyx", line 517, in numpy.random._common.cont_broadcast_2
+  File "__init__.cython-30.pxd", line 780, in numpy.PyArray_MultiIterNew3
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (10, 2) and arg 1 with shape (10, 3).
+2024-02-08 16:06:10,645 - pyswarms.single.local_best - INFO - Optimize for 10 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9, 'k': 3, 'p': 3}
+2024-02-08 16:06:10,650 - mph - INFO - Starting local Comsol session.
+2024-02-08 16:06:11,385 - mph - INFO - Starting Java virtual machine.
+2024-02-08 16:06:11,984 - mph - INFO - Java virtual machine has started.
+2024-02-08 16:06:13,015 - mph - INFO - Initializing stand-alone client.
+2024-02-08 16:06:15,412 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 16:06:15,415 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 16:06:15,415 - mph - INFO - Stand-alone client initialized.
+2024-02-08 16:06:15,417 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:06:38,311 - mph - INFO - Starting local Comsol session.
+2024-02-08 16:06:39,027 - mph - INFO - Starting Java virtual machine.
+2024-02-08 16:06:39,613 - mph - INFO - Java virtual machine has started.
+2024-02-08 16:06:40,651 - mph - INFO - Initializing stand-alone client.
+2024-02-08 16:06:42,906 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 16:06:42,910 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 16:06:42,910 - mph - INFO - Stand-alone client initialized.
+2024-02-08 16:06:42,912 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:06:53,642 - mph - INFO - Finished loading model.
+2024-02-08 16:06:53,873 - mph - INFO - Running study "Discharge".
+2024-02-08 16:07:29,147 - mph - INFO - Finished solving study.
+2024-02-08 16:07:29,182 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:07:34,856 - mph - INFO - Finished running export.
+2024-02-08 16:07:35,395 - mph - INFO - Exiting the Java virtual machine.
+2024-02-08 16:24:14,667 - mph - INFO - Starting local Comsol session.
+2024-02-08 16:24:15,410 - mph - INFO - Starting Java virtual machine.
+2024-02-08 16:24:16,032 - mph - INFO - Java virtual machine has started.
+2024-02-08 16:24:17,180 - mph - INFO - Initializing stand-alone client.
+2024-02-08 16:24:19,424 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 16:24:19,427 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 16:24:19,427 - mph - INFO - Stand-alone client initialized.
+2024-02-08 16:24:19,429 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:24:29,827 - mph - INFO - Finished loading model.
+2024-02-08 16:24:30,047 - mph - INFO - Running study "Discharge".
+2024-02-08 16:25:07,886 - mph - INFO - Finished solving study.
+2024-02-08 16:25:07,917 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:25:13,548 - mph - INFO - Finished running export.
+2024-02-08 16:25:14,019 - dfols.util - INFO - Function eval 1 at point 1 has f = 11.8136251718169 at x = [0.   0.05 0.05]
+2024-02-08 16:25:14,019 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-08 16:25:14,019 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-08 16:25:14,034 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:25:14,034 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:25:15,744 - mph - INFO - Finished loading model.
+2024-02-08 16:25:15,775 - mph - INFO - Running study "Discharge".
+2024-02-08 16:25:48,838 - mph - INFO - Finished solving study.
+2024-02-08 16:25:48,838 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:25:54,281 - mph - INFO - Finished running export.
+2024-02-08 16:26:24,513 - mph - INFO - Exiting the Java virtual machine.
+2024-02-08 16:28:26,703 - mph - INFO - Starting local Comsol session.
+2024-02-08 16:28:27,479 - mph - INFO - Starting Java virtual machine.
+2024-02-08 16:28:28,091 - mph - INFO - Java virtual machine has started.
+2024-02-08 16:28:29,335 - mph - INFO - Initializing stand-alone client.
+2024-02-08 16:28:31,677 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 16:28:31,681 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 16:28:31,681 - mph - INFO - Stand-alone client initialized.
+2024-02-08 16:28:31,683 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:28:38,248 - mph - INFO - Starting local Comsol session.
+2024-02-08 16:28:38,988 - mph - INFO - Starting Java virtual machine.
+2024-02-08 16:28:39,606 - mph - INFO - Java virtual machine has started.
+2024-02-08 16:28:40,682 - mph - INFO - Initializing stand-alone client.
+2024-02-08 16:28:43,051 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 16:28:43,054 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 16:28:43,054 - mph - INFO - Stand-alone client initialized.
+2024-02-08 16:28:43,056 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:28:53,999 - mph - INFO - Finished loading model.
+2024-02-08 16:28:54,109 - mph - INFO - Running study "Discharge".
+2024-02-08 16:29:13,330 - mph - INFO - Finished solving study.
+2024-02-08 16:29:13,362 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:29:18,168 - mph - INFO - Finished running export.
+2024-02-08 16:29:18,451 - dfols.util - INFO - Function eval 1 at point 1 has f = 10.7117400577498 at x = [0.   0.05 0.05]
+2024-02-08 16:29:18,451 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-08 16:29:18,451 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:29:18,451 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:29:20,317 - mph - INFO - Finished loading model.
+2024-02-08 16:29:20,521 - mph - INFO - Running study "Discharge".
+2024-02-08 16:29:36,236 - mph - INFO - Finished solving study.
+2024-02-08 16:29:36,267 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:29:39,968 - mph - INFO - Finished running export.
+2024-02-08 16:29:40,047 - dfols.util - INFO - Function eval 2 at point 2 has f = 7.27057842516223 at x = [0.03 0.05 0.05]
+2024-02-08 16:29:40,047 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:29:40,047 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:29:41,270 - mph - INFO - Finished loading model.
+2024-02-08 16:29:41,286 - mph - INFO - Running study "Discharge".
+2024-02-08 16:29:56,059 - mph - INFO - Finished solving study.
+2024-02-08 16:29:56,091 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:29:59,949 - mph - INFO - Finished running export.
+2024-02-08 16:30:00,027 - dfols.util - INFO - Function eval 3 at point 3 has f = 13.0894589225565 at x = [0.   0.09 0.05]
+2024-02-08 16:30:00,043 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:30:00,043 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:30:01,125 - mph - INFO - Finished loading model.
+2024-02-08 16:30:01,140 - mph - INFO - Running study "Discharge".
+2024-02-08 16:30:14,047 - mph - INFO - Finished solving study.
+2024-02-08 16:30:14,204 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:30:17,794 - mph - INFO - Finished running export.
+2024-02-08 16:30:17,842 - dfols.util - INFO - Function eval 4 at point 4 has f = 10.9872146435764 at x = [0.   0.05 0.09]
+2024-02-08 16:30:17,842 - dfols.solver - INFO - Beginning main loop
+2024-02-08 16:30:17,857 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:30:17,873 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:30:18,861 - mph - INFO - Finished loading model.
+2024-02-08 16:30:18,892 - mph - INFO - Running study "Discharge".
+2024-02-08 16:30:31,893 - mph - INFO - Finished solving study.
+2024-02-08 16:30:31,908 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:30:35,609 - mph - INFO - Finished running export.
+2024-02-08 16:30:35,672 - dfols.util - INFO - Function eval 5 at point 5 has f = 8.42488117031543 at x = [0.02983565 0.01373317 0.0583378 ]
+2024-02-08 16:30:35,672 - dfols.solver - INFO - New rho = 0.02 after 5 function evaluations
+2024-02-08 16:30:35,672 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:30:35,672 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:30:36,518 - mph - INFO - Finished loading model.
+2024-02-08 16:30:36,534 - mph - INFO - Running study "Discharge".
+2024-02-08 16:30:49,551 - mph - INFO - Finished solving study.
+2024-02-08 16:30:49,551 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:30:53,205 - mph - INFO - Finished running export.
+2024-02-08 16:30:53,252 - dfols.util - INFO - Function eval 6 at point 6 has f = 8.16914017430477 at x = [0.02900124 0.04939448 0.06111993]
+2024-02-08 16:30:53,252 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:30:53,252 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:30:54,021 - mph - INFO - Finished loading model.
+2024-02-08 16:30:54,037 - mph - INFO - Running study "Discharge".
+2024-02-08 16:31:07,055 - mph - INFO - Finished solving study.
+2024-02-08 16:31:07,055 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:31:10,583 - mph - INFO - Finished running export.
+2024-02-08 16:31:10,646 - dfols.util - INFO - Function eval 7 at point 7 has f = 7.41192131731236 at x = [0.0301948  0.05977876 0.05207565]
+2024-02-08 16:31:10,646 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:31:10,646 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:31:11,415 - mph - INFO - Finished loading model.
+2024-02-08 16:31:11,430 - mph - INFO - Running study "Discharge".
+2024-02-08 16:31:23,978 - mph - INFO - Finished solving study.
+2024-02-08 16:31:23,978 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:31:27,569 - mph - INFO - Finished running export.
+2024-02-08 16:31:27,638 - dfols.util - INFO - Function eval 8 at point 8 has f = 9.6612712669055 at x = [0.03020957 0.04609667 0.05082823]
+2024-02-08 16:31:27,638 - dfols.solver - INFO - New rho = 0.002 after 8 function evaluations
+2024-02-08 16:31:27,638 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:31:27,648 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:31:28,526 - mph - INFO - Finished loading model.
+2024-02-08 16:31:28,557 - mph - INFO - Running study "Discharge".
+2024-02-08 16:31:41,762 - mph - INFO - Finished solving study.
+2024-02-08 16:31:41,765 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:31:45,212 - mph - INFO - Finished running export.
+2024-02-08 16:31:45,271 - dfols.util - INFO - Function eval 9 at point 9 has f = 7.58314270728823 at x = [0.02962299 0.04933115 0.05181658]
+2024-02-08 16:31:45,271 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:31:45,271 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:31:46,028 - mph - INFO - Finished loading model.
+2024-02-08 16:31:46,059 - mph - INFO - Running study "Discharge".
+2024-02-08 16:31:58,997 - mph - INFO - Finished solving study.
+2024-02-08 16:31:59,012 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:32:02,729 - mph - INFO - Finished running export.
+2024-02-08 16:32:02,791 - dfols.util - INFO - Function eval 10 at point 10 has f = 7.86702433123616 at x = [0.03070615 0.05013308 0.05030954]
+2024-02-08 16:32:02,791 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:32:02,791 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:32:03,685 - mph - INFO - Finished loading model.
+2024-02-08 16:32:03,705 - mph - INFO - Running study "Discharge".
+2024-02-08 16:32:16,815 - mph - INFO - Finished solving study.
+2024-02-08 16:32:16,846 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:32:20,562 - mph - INFO - Finished running export.
+2024-02-08 16:32:20,609 - dfols.util - INFO - Function eval 11 at point 11 has f = 7.03953575009884 at x = [0.02931982 0.05004988 0.04958162]
+2024-02-08 16:32:20,609 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:32:20,609 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:32:21,394 - mph - INFO - Finished loading model.
+2024-02-08 16:32:21,409 - mph - INFO - Running study "Discharge".
+2024-02-08 16:32:33,283 - mph - INFO - Finished solving study.
+2024-02-08 16:32:33,283 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:32:36,639 - mph - INFO - Finished running export.
+2024-02-08 16:32:36,686 - dfols.util - INFO - Function eval 12 at point 12 has f = 7.64156260296396 at x = [0.0272131  0.04857707 0.05201896]
+2024-02-08 16:32:36,686 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:32:36,686 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:32:37,627 - mph - INFO - Finished loading model.
+2024-02-08 16:32:37,659 - mph - INFO - Running study "Discharge".
+2024-02-08 16:32:49,767 - mph - INFO - Finished solving study.
+2024-02-08 16:32:49,767 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:32:53,421 - mph - INFO - Finished running export.
+2024-02-08 16:32:53,483 - dfols.util - INFO - Function eval 13 at point 13 has f = 7.21817411289171 at x = [0.02925656 0.05044771 0.04972482]
+2024-02-08 16:32:53,483 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:32:53,483 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:32:54,189 - mph - INFO - Finished loading model.
+2024-02-08 16:32:54,205 - mph - INFO - Running study "Discharge".
+2024-02-08 16:33:06,424 - mph - INFO - Finished solving study.
+2024-02-08 16:33:06,455 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:33:10,094 - mph - INFO - Finished running export.
+2024-02-08 16:33:10,141 - dfols.util - INFO - Function eval 14 at point 14 has f = 8.13611711728148 at x = [0.02897272 0.04826666 0.05036006]
+2024-02-08 16:33:10,141 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:33:10,141 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:33:10,878 - mph - INFO - Finished loading model.
+2024-02-08 16:33:10,893 - mph - INFO - Running study "Discharge".
+2024-02-08 16:33:23,566 - mph - INFO - Finished solving study.
+2024-02-08 16:33:23,597 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:33:27,032 - mph - INFO - Finished running export.
+2024-02-08 16:33:27,095 - dfols.util - INFO - Function eval 15 at point 15 has f = 8.06595512401837 at x = [0.02962774 0.04928169 0.05007288]
+2024-02-08 16:33:27,095 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:33:27,095 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:33:27,800 - mph - INFO - Finished loading model.
+2024-02-08 16:33:27,816 - mph - INFO - Running study "Discharge".
+2024-02-08 16:33:40,315 - mph - INFO - Finished solving study.
+2024-02-08 16:33:40,315 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:33:43,969 - mph - INFO - Finished running export.
+2024-02-08 16:33:44,032 - dfols.util - INFO - Function eval 16 at point 16 has f = 7.14591749823453 at x = [0.02916004 0.04976025 0.04940634]
+2024-02-08 16:33:44,032 - dfols.solver - INFO - New rho = 0.0002 after 16 function evaluations
+2024-02-08 16:33:44,032 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:33:44,032 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:33:44,863 - mph - INFO - Finished loading model.
+2024-02-08 16:33:44,878 - mph - INFO - Running study "Discharge".
+2024-02-08 16:33:56,916 - mph - INFO - Finished solving study.
+2024-02-08 16:33:56,924 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:34:00,389 - mph - INFO - Finished running export.
+2024-02-08 16:34:00,452 - dfols.util - INFO - Function eval 17 at point 17 has f = 7.59279517343067 at x = [0.02942679 0.04993905 0.04949574]
+2024-02-08 16:34:00,452 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:34:00,452 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:34:01,330 - mph - INFO - Finished loading model.
+2024-02-08 16:34:01,346 - mph - INFO - Running study "Discharge".
+2024-02-08 16:34:14,019 - mph - INFO - Finished solving study.
+2024-02-08 16:34:14,019 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:34:17,720 - mph - INFO - Finished running export.
+2024-02-08 16:34:17,782 - dfols.util - INFO - Function eval 18 at point 18 has f = 7.00560559788655 at x = [0.02931757 0.05007374 0.04954584]
+2024-02-08 16:34:17,782 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:34:17,782 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:34:18,598 - mph - INFO - Finished loading model.
+2024-02-08 16:34:18,613 - mph - INFO - Running study "Discharge".
+2024-02-08 16:34:31,443 - mph - INFO - Finished solving study.
+2024-02-08 16:34:31,443 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:34:35,049 - mph - INFO - Finished running export.
+2024-02-08 16:34:35,112 - dfols.util - INFO - Function eval 19 at point 19 has f = 7.03375909416721 at x = [0.02925627 0.05012913 0.04956173]
+2024-02-08 16:34:35,112 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:34:35,112 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:34:35,771 - mph - INFO - Finished loading model.
+2024-02-08 16:34:35,788 - mph - INFO - Running study "Discharge".
+2024-02-08 16:34:48,693 - mph - INFO - Finished solving study.
+2024-02-08 16:34:48,693 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:34:52,346 - mph - INFO - Finished running export.
+2024-02-08 16:34:52,409 - dfols.util - INFO - Function eval 20 at point 20 has f = 7.12905673953176 at x = [0.02932268 0.05007006 0.04958508]
+2024-02-08 16:34:52,409 - dfols.solver - INFO - New rho = 2e-05 after 20 function evaluations
+2024-02-08 16:34:52,409 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:34:52,409 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:34:53,130 - mph - INFO - Finished loading model.
+2024-02-08 16:34:53,130 - mph - INFO - Running study "Discharge".
+2024-02-08 16:35:05,489 - mph - INFO - Finished solving study.
+2024-02-08 16:35:05,489 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:35:09,051 - mph - INFO - Finished running export.
+2024-02-08 16:35:09,112 - dfols.util - INFO - Function eval 21 at point 21 has f = 7.47958779077758 at x = [0.02931056 0.05006099 0.04953359]
+2024-02-08 16:35:09,127 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:35:09,127 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:35:09,817 - mph - INFO - Finished loading model.
+2024-02-08 16:35:09,833 - mph - INFO - Running study "Discharge".
+2024-02-08 16:35:23,263 - mph - INFO - Finished solving study.
+2024-02-08 16:35:23,265 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:35:27,165 - mph - INFO - Finished running export.
+2024-02-08 16:35:27,246 - dfols.util - INFO - Function eval 22 at point 22 has f = 7.00647730049062 at x = [0.02932039 0.05007179 0.04954501]
+2024-02-08 16:35:27,248 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:35:27,249 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:35:28,195 - mph - INFO - Finished loading model.
+2024-02-08 16:35:28,211 - mph - INFO - Running study "Discharge".
+2024-02-08 16:35:41,263 - mph - INFO - Finished solving study.
+2024-02-08 16:35:41,265 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:35:44,766 - mph - INFO - Finished running export.
+2024-02-08 16:35:44,830 - dfols.util - INFO - Function eval 23 at point 23 has f = 7.02338118956316 at x = [0.02932045 0.05008178 0.04955039]
+2024-02-08 16:35:44,832 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:35:44,833 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:35:45,736 - mph - INFO - Finished loading model.
+2024-02-08 16:35:45,754 - mph - INFO - Running study "Discharge".
+2024-02-08 16:35:58,013 - mph - INFO - Finished solving study.
+2024-02-08 16:35:58,014 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:36:01,578 - mph - INFO - Finished running export.
+2024-02-08 16:36:01,634 - dfols.util - INFO - Function eval 24 at point 24 has f = 6.99339802248521 at x = [0.02931556 0.05007087 0.0495466 ]
+2024-02-08 16:36:01,636 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:36:01,637 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:36:02,345 - mph - INFO - Finished loading model.
+2024-02-08 16:36:02,359 - mph - INFO - Running study "Discharge".
+2024-02-08 16:36:14,216 - mph - INFO - Finished solving study.
+2024-02-08 16:36:14,217 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:36:17,730 - mph - INFO - Finished running export.
+2024-02-08 16:36:17,786 - dfols.util - INFO - Function eval 25 at point 25 has f = 7.00448298874235 at x = [0.0293146  0.05006789 0.04954894]
+2024-02-08 16:36:17,787 - dfols.solver - INFO - New rho = 1.41421e-06 after 25 function evaluations
+2024-02-08 16:36:17,788 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:36:17,790 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:36:18,530 - mph - INFO - Finished loading model.
+2024-02-08 16:36:18,545 - mph - INFO - Running study "Discharge".
+2024-02-08 16:36:30,778 - mph - INFO - Finished solving study.
+2024-02-08 16:36:30,778 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:36:34,465 - mph - INFO - Finished running export.
+2024-02-08 16:36:34,527 - dfols.util - INFO - Function eval 26 at point 26 has f = 6.99445127257422 at x = [0.02931504 0.05007036 0.0495448 ]
+2024-02-08 16:36:34,527 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:36:34,540 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:36:35,186 - mph - INFO - Finished loading model.
+2024-02-08 16:36:35,201 - mph - INFO - Running study "Discharge".
+2024-02-08 16:36:47,730 - mph - INFO - Finished solving study.
+2024-02-08 16:36:47,730 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:36:51,382 - mph - INFO - Finished running export.
+2024-02-08 16:36:51,460 - dfols.util - INFO - Function eval 27 at point 27 has f = 6.99349008614687 at x = [0.02931578 0.05007059 0.04954657]
+2024-02-08 16:36:51,460 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:36:51,460 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:36:52,119 - mph - INFO - Finished loading model.
+2024-02-08 16:36:52,135 - mph - INFO - Running study "Discharge".
+2024-02-08 16:37:04,901 - mph - INFO - Finished solving study.
+2024-02-08 16:37:05,095 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:37:08,821 - mph - INFO - Finished running export.
+2024-02-08 16:37:08,867 - dfols.util - INFO - Function eval 28 at point 28 has f = 6.99314817844493 at x = [0.02931512 0.0500703  0.04954718]
+2024-02-08 16:37:08,867 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:37:08,867 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:37:09,605 - mph - INFO - Finished loading model.
+2024-02-08 16:37:09,621 - mph - INFO - Running study "Discharge".
+2024-02-08 16:37:22,056 - mph - INFO - Finished solving study.
+2024-02-08 16:37:22,056 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:37:25,852 - mph - INFO - Finished running export.
+2024-02-08 16:37:25,899 - dfols.util - INFO - Function eval 29 at point 29 has f = 7.00473960651226 at x = [0.02931508 0.05007046 0.04954764]
+2024-02-08 16:37:25,914 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:37:25,914 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:37:26,633 - mph - INFO - Finished loading model.
+2024-02-08 16:37:26,636 - mph - INFO - Running study "Discharge".
+2024-02-08 16:37:38,932 - mph - INFO - Finished solving study.
+2024-02-08 16:37:38,932 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:37:42,429 - mph - INFO - Finished running export.
+2024-02-08 16:37:42,492 - dfols.util - INFO - Function eval 30 at point 30 has f = 6.9933133278716 at x = [0.02931503 0.05007019 0.04954695]
+2024-02-08 16:37:42,492 - dfols.solver - INFO - New rho = 1e-07 after 30 function evaluations
+2024-02-08 16:37:42,508 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:37:42,508 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:37:43,182 - mph - INFO - Finished loading model.
+2024-02-08 16:37:43,198 - mph - INFO - Running study "Discharge".
+2024-02-08 16:37:55,243 - mph - INFO - Finished solving study.
+2024-02-08 16:37:55,243 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:37:58,818 - mph - INFO - Finished running export.
+2024-02-08 16:37:58,865 - dfols.util - INFO - Function eval 31 at point 31 has f = 6.99317852149273 at x = [0.02931519 0.05007019 0.04954717]
+2024-02-08 16:37:58,865 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:37:58,865 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:37:59,523 - mph - INFO - Finished loading model.
+2024-02-08 16:37:59,539 - mph - INFO - Running study "Discharge".
+2024-02-08 16:38:11,991 - mph - INFO - Finished solving study.
+2024-02-08 16:38:11,991 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:38:15,644 - mph - INFO - Finished running export.
+2024-02-08 16:38:15,707 - dfols.util - INFO - Function eval 32 at point 32 has f = 6.99313538280467 at x = [0.0293151  0.05007027 0.0495472 ]
+2024-02-08 16:38:15,707 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:38:15,707 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:38:16,476 - mph - INFO - Finished loading model.
+2024-02-08 16:38:16,491 - mph - INFO - Running study "Discharge".
+2024-02-08 16:38:29,084 - mph - INFO - Finished solving study.
+2024-02-08 16:38:29,084 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:38:32,831 - mph - INFO - Finished running export.
+2024-02-08 16:38:32,910 - dfols.util - INFO - Function eval 33 at point 33 has f = 7.00504827742474 at x = [0.0293151  0.05007029 0.04954727]
+2024-02-08 16:38:32,910 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:38:32,910 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:38:33,753 - mph - INFO - Finished loading model.
+2024-02-08 16:38:33,757 - mph - INFO - Running study "Discharge".
+2024-02-08 16:38:46,835 - mph - INFO - Finished solving study.
+2024-02-08 16:38:46,835 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:38:50,317 - mph - INFO - Finished running export.
+2024-02-08 16:38:50,395 - dfols.util - INFO - Function eval 34 at point 34 has f = 6.99315652060301 at x = [0.02931509 0.05007025 0.04954718]
+2024-02-08 16:38:50,395 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:38:50,395 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:38:51,038 - mph - INFO - Finished loading model.
+2024-02-08 16:38:51,053 - mph - INFO - Running study "Discharge".
+2024-02-08 16:39:03,648 - mph - INFO - Finished solving study.
+2024-02-08 16:39:03,648 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:39:07,443 - mph - INFO - Finished running export.
+2024-02-08 16:39:07,506 - dfols.util - INFO - Function eval 35 at point 35 has f = 6.99313967860143 at x = [0.02931511 0.05007025 0.0495472 ]
+2024-02-08 16:39:07,506 - dfols.solver - INFO - Restarting from finish point (f = 6.99314) after 35 function evals; using rhobeg = 0.2 and rhoend = 1e-07
+2024-02-08 16:39:07,506 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-08 16:39:07,506 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:39:07,506 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:39:08,180 - mph - INFO - Finished loading model.
+2024-02-08 16:39:08,195 - mph - INFO - Running study "Discharge".
+2024-02-08 16:39:21,198 - mph - INFO - Finished solving study.
+2024-02-08 16:39:21,198 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:39:24,680 - mph - INFO - Finished running export.
+2024-02-08 16:39:24,758 - dfols.util - INFO - Function eval 36 at point 36 has f = 4.53160226463846 at x = [0.0593151  0.05007027 0.0495472 ]
+2024-02-08 16:39:24,758 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:39:24,758 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:39:25,416 - mph - INFO - Finished loading model.
+2024-02-08 16:39:25,416 - mph - INFO - Running study "Discharge".
+2024-02-08 16:39:37,743 - mph - INFO - Finished solving study.
+2024-02-08 16:39:37,759 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:39:41,460 - mph - INFO - Finished running export.
+2024-02-08 16:39:41,538 - dfols.util - INFO - Function eval 37 at point 37 has f = 8.94635347561312 at x = [0.0293151  0.09007027 0.0495472 ]
+2024-02-08 16:39:41,538 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:39:41,538 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:39:42,259 - mph - INFO - Finished loading model.
+2024-02-08 16:39:42,275 - mph - INFO - Running study "Discharge".
+2024-02-08 16:39:54,319 - mph - INFO - Finished solving study.
+2024-02-08 16:39:54,319 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:39:57,580 - mph - INFO - Finished running export.
+2024-02-08 16:39:57,659 - dfols.util - INFO - Function eval 38 at point 38 has f = 8.64508026875062 at x = [0.0293151  0.05007027 0.0895472 ]
+2024-02-08 16:39:57,659 - dfols.solver - INFO - Beginning main loop
+2024-02-08 16:39:57,659 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:39:57,659 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:39:58,678 - mph - INFO - Finished loading model.
+2024-02-08 16:39:58,704 - mph - INFO - Running study "Discharge".
+2024-02-08 16:40:10,893 - mph - INFO - Finished solving study.
+2024-02-08 16:40:10,893 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:40:14,281 - mph - INFO - Finished running export.
+2024-02-08 16:40:14,344 - dfols.util - INFO - Function eval 39 at point 39 has f = 5.42999697361179 at x = [0.05912807 0.01187677 0.06142975]
+2024-02-08 16:40:14,344 - dfols.solver - INFO - New rho = 0.02 after 39 function evaluations
+2024-02-08 16:40:14,359 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:40:14,359 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:40:15,049 - mph - INFO - Finished loading model.
+2024-02-08 16:40:15,065 - mph - INFO - Running study "Discharge".
+2024-02-08 16:40:27,344 - mph - INFO - Finished solving study.
+2024-02-08 16:40:27,344 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:40:31,108 - mph - INFO - Finished running export.
+2024-02-08 16:40:31,171 - dfols.util - INFO - Function eval 40 at point 40 has f = 6.8093366433736 at x = [0.06223732 0.04156236 0.04721074]
+2024-02-08 16:40:31,171 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:40:31,171 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:40:31,813 - mph - INFO - Finished loading model.
+2024-02-08 16:40:31,829 - mph - INFO - Running study "Discharge".
+2024-02-08 16:40:45,224 - mph - INFO - Finished solving study.
+2024-02-08 16:40:45,226 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:40:48,521 - mph - INFO - Finished running export.
+2024-02-08 16:40:48,577 - dfols.util - INFO - Function eval 41 at point 41 has f = 4.85719260180186 at x = [0.05700504 0.04933048 0.0471047 ]
+2024-02-08 16:40:48,579 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:40:48,580 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:40:49,310 - mph - INFO - Finished loading model.
+2024-02-08 16:40:49,324 - mph - INFO - Running study "Discharge".
+2024-02-08 16:41:01,428 - mph - INFO - Finished solving study.
+2024-02-08 16:41:01,430 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:41:05,381 - mph - INFO - Finished running export.
+2024-02-08 16:41:05,433 - dfols.util - INFO - Function eval 42 at point 42 has f = 3.3318265421207 at x = [0.06051376 0.04271362 0.0555763 ]
+2024-02-08 16:41:05,437 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:41:05,437 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:41:06,150 - mph - INFO - Finished loading model.
+2024-02-08 16:41:06,167 - mph - INFO - Running study "Discharge".
+2024-02-08 16:41:17,258 - mph - INFO - Finished solving study.
+2024-02-08 16:41:17,261 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:41:20,687 - mph - INFO - Finished running export.
+2024-02-08 16:41:20,740 - dfols.util - INFO - Function eval 43 at point 43 has f = 5.70954205206194 at x = [0.05673421 0.00823803 0.07214224]
+2024-02-08 16:41:20,742 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:41:20,743 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:41:21,439 - mph - INFO - Finished loading model.
+2024-02-08 16:41:21,453 - mph - INFO - Running study "Discharge".
+2024-02-08 16:41:33,647 - mph - INFO - Finished solving study.
+2024-02-08 16:41:33,677 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:41:37,053 - mph - INFO - Finished running export.
+2024-02-08 16:41:37,116 - dfols.util - INFO - Function eval 44 at point 44 has f = 6.19782433849081 at x = [0.06491679 0.04587484 0.04000548]
+2024-02-08 16:41:37,117 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:41:37,118 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:41:38,034 - mph - INFO - Finished loading model.
+2024-02-08 16:41:38,049 - mph - INFO - Running study "Discharge".
+2024-02-08 16:41:48,904 - mph - INFO - Finished solving study.
+2024-02-08 16:41:48,906 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:41:52,153 - mph - INFO - Finished running export.
+2024-02-08 16:41:52,205 - dfols.util - INFO - Function eval 45 at point 45 has f = 6.33490771425588 at x = [0.05511202 0.04285051 0.06198975]
+2024-02-08 16:41:52,207 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:41:52,208 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:41:52,914 - mph - INFO - Finished loading model.
+2024-02-08 16:41:52,929 - mph - INFO - Running study "Discharge".
+2024-02-08 16:42:04,316 - mph - INFO - Finished solving study.
+2024-02-08 16:42:04,318 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:42:07,620 - mph - INFO - Finished running export.
+2024-02-08 16:42:07,673 - dfols.util - INFO - Function eval 46 at point 46 has f = 3.11856250838305 at x = [0.06139141 0.03935149 0.05375238]
+2024-02-08 16:42:07,675 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:42:07,676 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:42:08,358 - mph - INFO - Finished loading model.
+2024-02-08 16:42:08,372 - mph - INFO - Running study "Discharge".
+2024-02-08 16:42:19,619 - mph - INFO - Finished solving study.
+2024-02-08 16:42:19,620 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:42:22,920 - mph - INFO - Finished running export.
+2024-02-08 16:42:22,982 - dfols.util - INFO - Function eval 47 at point 47 has f = 4.29578388608488 at x = [0.06426633 0.02771655 0.04880258]
+2024-02-08 16:42:22,984 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:42:22,985 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:42:23,711 - mph - INFO - Finished loading model.
+2024-02-08 16:42:23,727 - mph - INFO - Running study "Discharge".
+2024-02-08 16:42:35,244 - mph - INFO - Finished solving study.
+2024-02-08 16:42:35,245 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:42:38,572 - mph - INFO - Finished running export.
+2024-02-08 16:42:38,634 - dfols.util - INFO - Function eval 48 at point 48 has f = 3.05866321045163 at x = [0.06413773 0.03224254 0.05351925]
+2024-02-08 16:42:38,636 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:42:38,638 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:42:39,251 - mph - INFO - Finished loading model.
+2024-02-08 16:42:39,266 - mph - INFO - Running study "Discharge".
+2024-02-08 16:42:50,549 - mph - INFO - Finished solving study.
+2024-02-08 16:42:50,550 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:42:53,766 - mph - INFO - Finished running export.
+2024-02-08 16:42:53,824 - dfols.util - INFO - Function eval 49 at point 49 has f = 3.00422994710555 at x = [0.06716349 0.02536225 0.05289815]
+2024-02-08 16:42:53,827 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:42:53,828 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:42:54,496 - mph - INFO - Finished loading model.
+2024-02-08 16:42:54,511 - mph - INFO - Running study "Discharge".
+2024-02-08 16:43:05,763 - mph - INFO - Finished solving study.
+2024-02-08 16:43:05,765 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:43:09,066 - mph - INFO - Finished running export.
+2024-02-08 16:43:09,120 - dfols.util - INFO - Function eval 50 at point 50 has f = 4.18568628477968 at x = [0.06715949 0.01817167 0.05640464]
+2024-02-08 16:43:09,122 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:43:09,123 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:43:09,841 - mph - INFO - Finished loading model.
+2024-02-08 16:43:09,857 - mph - INFO - Running study "Discharge".
+2024-02-08 16:43:20,937 - mph - INFO - Finished solving study.
+2024-02-08 16:43:20,938 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:43:24,265 - mph - INFO - Finished running export.
+2024-02-08 16:43:24,320 - dfols.util - INFO - Function eval 51 at point 51 has f = 5.53436092795212 at x = [0.06693386 0.02359326 0.05647263]
+2024-02-08 16:43:24,321 - dfols.solver - INFO - New rho = 0.002 after 51 function evaluations
+2024-02-08 16:43:24,322 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:43:24,323 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:43:25,007 - mph - INFO - Finished loading model.
+2024-02-08 16:43:25,022 - mph - INFO - Running study "Discharge".
+2024-02-08 16:43:36,575 - mph - INFO - Finished solving study.
+2024-02-08 16:43:36,578 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:43:39,879 - mph - INFO - Finished running export.
+2024-02-08 16:43:39,946 - dfols.util - INFO - Function eval 52 at point 52 has f = 4.06638445200187 at x = [0.06687463 0.02340013 0.05285645]
+2024-02-08 16:43:39,947 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:43:39,948 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:43:40,627 - mph - INFO - Finished loading model.
+2024-02-08 16:43:40,640 - mph - INFO - Running study "Discharge".
+2024-02-08 16:43:51,852 - mph - INFO - Finished solving study.
+2024-02-08 16:43:51,854 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:43:55,158 - mph - INFO - Finished running export.
+2024-02-08 16:43:55,211 - dfols.util - INFO - Function eval 53 at point 53 has f = 2.96200430181639 at x = [0.06657473 0.02551615 0.05290708]
+2024-02-08 16:43:55,213 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:43:55,214 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:43:55,895 - mph - INFO - Finished loading model.
+2024-02-08 16:43:55,910 - mph - INFO - Running study "Discharge".
+2024-02-08 16:44:07,726 - mph - INFO - Finished solving study.
+2024-02-08 16:44:07,728 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:44:11,032 - mph - INFO - Finished running export.
+2024-02-08 16:44:11,084 - dfols.util - INFO - Function eval 54 at point 54 has f = 3.61735978315858 at x = [0.06657925 0.02651611 0.0529    ]
+2024-02-08 16:44:11,085 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:44:11,086 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:44:11,774 - mph - INFO - Finished loading model.
+2024-02-08 16:44:11,787 - mph - INFO - Running study "Discharge".
+2024-02-08 16:44:22,935 - mph - INFO - Finished solving study.
+2024-02-08 16:44:22,938 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:44:26,210 - mph - INFO - Finished running export.
+2024-02-08 16:44:26,263 - dfols.util - INFO - Function eval 55 at point 55 has f = 4.29609463743623 at x = [0.06657091 0.02551335 0.05250712]
+2024-02-08 16:44:26,265 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:44:26,265 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:44:26,921 - mph - INFO - Finished loading model.
+2024-02-08 16:44:26,936 - mph - INFO - Running study "Discharge".
+2024-02-08 16:44:38,158 - mph - INFO - Finished solving study.
+2024-02-08 16:44:38,185 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:44:41,509 - mph - INFO - Finished running export.
+2024-02-08 16:44:41,579 - dfols.util - INFO - Function eval 56 at point 56 has f = 4.97629392673216 at x = [0.06648365 0.02513518 0.05291756]
+2024-02-08 16:44:41,580 - dfols.solver - INFO - New rho = 0.0002 after 56 function evaluations
+2024-02-08 16:44:41,582 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:44:41,583 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:44:42,258 - mph - INFO - Finished loading model.
+2024-02-08 16:44:42,272 - mph - INFO - Running study "Discharge".
+2024-02-08 16:44:53,213 - mph - INFO - Finished solving study.
+2024-02-08 16:44:53,214 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:44:56,476 - mph - INFO - Finished running export.
+2024-02-08 16:44:56,537 - dfols.util - INFO - Function eval 57 at point 57 has f = 5.92062133191567 at x = [0.06658736 0.02567445 0.052786  ]
+2024-02-08 16:44:56,537 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:44:56,538 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:44:57,187 - mph - INFO - Finished loading model.
+2024-02-08 16:44:57,200 - mph - INFO - Running study "Discharge".
+2024-02-08 16:45:08,515 - mph - INFO - Finished solving study.
+2024-02-08 16:45:08,517 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:45:11,746 - mph - INFO - Finished running export.
+2024-02-08 16:45:11,805 - dfols.util - INFO - Function eval 58 at point 58 has f = 2.94836693602684 at x = [0.06654723 0.02552813 0.05291764]
+2024-02-08 16:45:11,807 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:45:11,808 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:45:12,502 - mph - INFO - Finished loading model.
+2024-02-08 16:45:12,516 - mph - INFO - Running study "Discharge".
+2024-02-08 16:45:23,664 - mph - INFO - Finished solving study.
+2024-02-08 16:45:23,666 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:45:26,945 - mph - INFO - Finished running export.
+2024-02-08 16:45:26,999 - dfols.util - INFO - Function eval 59 at point 59 has f = 5.2205584753859 at x = [0.06650306 0.02546088 0.05296246]
+2024-02-08 16:45:27,000 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:45:27,001 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:45:27,659 - mph - INFO - Finished loading model.
+2024-02-08 16:45:27,673 - mph - INFO - Running study "Discharge".
+2024-02-08 16:45:38,805 - mph - INFO - Finished solving study.
+2024-02-08 16:45:38,807 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:45:42,077 - mph - INFO - Finished running export.
+2024-02-08 16:45:42,143 - dfols.util - INFO - Function eval 60 at point 60 has f = 2.93047435602848 at x = [0.06653425 0.02550343 0.05294391]
+2024-02-08 16:45:42,145 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:45:42,146 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:45:42,832 - mph - INFO - Finished loading model.
+2024-02-08 16:45:42,845 - mph - INFO - Running study "Discharge".
+2024-02-08 16:45:53,750 - mph - INFO - Finished solving study.
+2024-02-08 16:45:53,752 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:45:57,000 - mph - INFO - Finished running export.
+2024-02-08 16:45:57,060 - dfols.util - INFO - Function eval 61 at point 61 has f = 5.66964785576174 at x = [0.06651499 0.02549042 0.05297169]
+2024-02-08 16:45:57,061 - dfols.solver - INFO - New rho = 2e-05 after 61 function evaluations
+2024-02-08 16:45:57,063 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:45:57,064 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:45:57,851 - mph - INFO - Finished loading model.
+2024-02-08 16:45:57,864 - mph - INFO - Running study "Discharge".
+2024-02-08 16:46:09,004 - mph - INFO - Finished solving study.
+2024-02-08 16:46:09,005 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:46:12,401 - mph - INFO - Finished running export.
+2024-02-08 16:46:12,456 - dfols.util - INFO - Function eval 62 at point 62 has f = 2.93618388449125 at x = [0.06653088 0.02548946 0.05293031]
+2024-02-08 16:46:12,457 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:46:12,459 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:46:13,115 - mph - INFO - Finished loading model.
+2024-02-08 16:46:13,130 - mph - INFO - Running study "Discharge".
+2024-02-08 16:46:25,013 - mph - INFO - Finished solving study.
+2024-02-08 16:46:25,015 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:46:28,345 - mph - INFO - Finished running export.
+2024-02-08 16:46:28,397 - dfols.util - INFO - Function eval 63 at point 63 has f = 2.93027238830854 at x = [0.06653638 0.02550104 0.05294542]
+2024-02-08 16:46:28,399 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:46:28,399 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:46:29,066 - mph - INFO - Finished loading model.
+2024-02-08 16:46:29,079 - mph - INFO - Running study "Discharge".
+2024-02-08 16:46:40,397 - mph - INFO - Finished solving study.
+2024-02-08 16:46:40,398 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:46:43,589 - mph - INFO - Finished running export.
+2024-02-08 16:46:43,652 - dfols.util - INFO - Function eval 64 at point 64 has f = 2.93221034945709 at x = [0.06654184 0.02550788 0.05294588]
+2024-02-08 16:46:43,653 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:46:43,655 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:46:44,315 - mph - INFO - Finished loading model.
+2024-02-08 16:46:44,329 - mph - INFO - Running study "Discharge".
+2024-02-08 16:46:55,667 - mph - INFO - Finished solving study.
+2024-02-08 16:46:55,669 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:46:58,922 - mph - INFO - Finished running export.
+2024-02-08 16:46:58,997 - dfols.util - INFO - Function eval 65 at point 65 has f = 2.92799300953846 at x = [0.0665351  0.02550075 0.05294902]
+2024-02-08 16:46:58,998 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:46:58,999 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:46:59,640 - mph - INFO - Finished loading model.
+2024-02-08 16:46:59,652 - mph - INFO - Running study "Discharge".
+2024-02-08 16:47:10,747 - mph - INFO - Finished solving study.
+2024-02-08 16:47:10,749 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:47:13,917 - mph - INFO - Finished running export.
+2024-02-08 16:47:13,977 - dfols.util - INFO - Function eval 66 at point 66 has f = 2.91890637642713 at x = [0.06652979 0.0255     0.05296335]
+2024-02-08 16:47:13,979 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:47:13,980 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:47:14,652 - mph - INFO - Finished loading model.
+2024-02-08 16:47:14,667 - mph - INFO - Running study "Discharge".
+2024-02-08 16:47:25,846 - mph - INFO - Finished solving study.
+2024-02-08 16:47:25,848 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:47:29,161 - mph - INFO - Finished running export.
+2024-02-08 16:47:29,213 - dfols.util - INFO - Function eval 67 at point 67 has f = 5.08690132210713 at x = [0.06650813 0.02549793 0.05302043]
+2024-02-08 16:47:29,213 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:47:29,214 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:47:29,904 - mph - INFO - Finished loading model.
+2024-02-08 16:47:29,917 - mph - INFO - Running study "Discharge".
+2024-02-08 16:47:41,148 - mph - INFO - Finished solving study.
+2024-02-08 16:47:41,174 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:47:44,315 - mph - INFO - Finished running export.
+2024-02-08 16:47:44,387 - dfols.util - INFO - Function eval 68 at point 68 has f = 2.91830950658612 at x = [0.06652562 0.02550294 0.05296217]
+2024-02-08 16:47:44,389 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:47:44,390 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:47:45,017 - mph - INFO - Finished loading model.
+2024-02-08 16:47:45,031 - mph - INFO - Running study "Discharge".
+2024-02-08 16:47:56,062 - mph - INFO - Finished solving study.
+2024-02-08 16:47:56,064 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:47:59,663 - mph - INFO - Finished running export.
+2024-02-08 16:47:59,734 - dfols.util - INFO - Function eval 69 at point 69 has f = 5.63666605354397 at x = [0.06651568 0.0255012  0.05299124]
+2024-02-08 16:47:59,736 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:47:59,737 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:48:00,431 - mph - INFO - Finished loading model.
+2024-02-08 16:48:00,446 - mph - INFO - Running study "Discharge".
+2024-02-08 16:48:11,736 - mph - INFO - Finished solving study.
+2024-02-08 16:48:11,739 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:48:14,952 - mph - INFO - Finished running export.
+2024-02-08 16:48:15,011 - dfols.util - INFO - Function eval 70 at point 70 has f = 2.91145110395053 at x = [0.06652419 0.02551117 0.05297576]
+2024-02-08 16:48:15,013 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:48:15,014 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:48:15,651 - mph - INFO - Finished loading model.
+2024-02-08 16:48:15,665 - mph - INFO - Running study "Discharge".
+2024-02-08 16:48:26,789 - mph - INFO - Finished solving study.
+2024-02-08 16:48:26,790 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:48:29,897 - mph - INFO - Finished running export.
+2024-02-08 16:48:29,966 - dfols.util - INFO - Function eval 71 at point 71 has f = 2.90563139898425 at x = [0.06652371 0.0255219  0.05298761]
+2024-02-08 16:48:29,967 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:48:29,968 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:48:30,615 - mph - INFO - Finished loading model.
+2024-02-08 16:48:30,628 - mph - INFO - Running study "Discharge".
+2024-02-08 16:48:41,492 - mph - INFO - Finished solving study.
+2024-02-08 16:48:41,494 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:48:44,694 - mph - INFO - Finished running export.
+2024-02-08 16:48:44,758 - dfols.util - INFO - Function eval 72 at point 72 has f = 5.64669272180284 at x = [0.06652123 0.02552854 0.05299061]
+2024-02-08 16:48:44,761 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:48:44,762 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:48:45,410 - mph - INFO - Finished loading model.
+2024-02-08 16:48:45,424 - mph - INFO - Running study "Discharge".
+2024-02-08 16:48:56,238 - mph - INFO - Finished solving study.
+2024-02-08 16:48:56,240 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:48:59,406 - mph - INFO - Finished running export.
+2024-02-08 16:48:59,464 - dfols.util - INFO - Function eval 73 at point 73 has f = 5.61498238941226 at x = [0.06652326 0.02552131 0.05299152]
+2024-02-08 16:48:59,464 - dfols.solver - INFO - New rho = 1.41421e-06 after 73 function evaluations
+2024-02-08 16:48:59,466 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:48:59,468 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:49:00,129 - mph - INFO - Finished loading model.
+2024-02-08 16:49:00,144 - mph - INFO - Running study "Discharge".
+2024-02-08 16:49:11,694 - mph - INFO - Finished solving study.
+2024-02-08 16:49:11,696 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:49:14,921 - mph - INFO - Finished running export.
+2024-02-08 16:49:14,977 - dfols.util - INFO - Function eval 74 at point 74 has f = 2.90511737288675 at x = [0.06652445 0.02552095 0.05298906]
+2024-02-08 16:49:14,978 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:49:14,979 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:49:15,629 - mph - INFO - Finished loading model.
+2024-02-08 16:49:15,642 - mph - INFO - Running study "Discharge".
+2024-02-08 16:49:26,881 - mph - INFO - Finished solving study.
+2024-02-08 16:49:26,883 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:49:30,096 - mph - INFO - Finished running export.
+2024-02-08 16:49:30,156 - dfols.util - INFO - Function eval 75 at point 75 has f = 2.90505321907221 at x = [0.06652412 0.02552021 0.05298888]
+2024-02-08 16:49:30,158 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:49:30,159 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:49:30,802 - mph - INFO - Finished loading model.
+2024-02-08 16:49:30,817 - mph - INFO - Running study "Discharge".
+2024-02-08 16:49:42,177 - mph - INFO - Finished solving study.
+2024-02-08 16:49:42,179 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:49:45,500 - mph - INFO - Finished running export.
+2024-02-08 16:49:45,552 - dfols.util - INFO - Function eval 76 at point 76 has f = 2.90515554586288 at x = [0.06652459 0.02551947 0.05298913]
+2024-02-08 16:49:45,554 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:49:45,555 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:49:46,203 - mph - INFO - Finished loading model.
+2024-02-08 16:49:46,217 - mph - INFO - Running study "Discharge".
+2024-02-08 16:49:57,576 - mph - INFO - Finished solving study.
+2024-02-08 16:49:57,603 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:50:00,820 - mph - INFO - Finished running export.
+2024-02-08 16:50:00,882 - dfols.util - INFO - Function eval 77 at point 77 has f = 2.90482605718862 at x = [0.06652391 0.02552021 0.0529893 ]
+2024-02-08 16:50:00,884 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:50:00,885 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:50:01,551 - mph - INFO - Finished loading model.
+2024-02-08 16:50:01,564 - mph - INFO - Running study "Discharge".
+2024-02-08 16:50:12,652 - mph - INFO - Finished solving study.
+2024-02-08 16:50:12,654 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:50:15,848 - mph - INFO - Finished running export.
+2024-02-08 16:50:15,902 - dfols.util - INFO - Function eval 78 at point 78 has f = 2.90486752420803 at x = [0.06652367 0.02552022 0.05298969]
+2024-02-08 16:50:15,903 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:50:15,904 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:50:16,568 - mph - INFO - Finished loading model.
+2024-02-08 16:50:16,583 - mph - INFO - Running study "Discharge".
+2024-02-08 16:50:27,693 - mph - INFO - Finished solving study.
+2024-02-08 16:50:27,695 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:50:30,949 - mph - INFO - Finished running export.
+2024-02-08 16:50:31,009 - dfols.util - INFO - Function eval 79 at point 79 has f = 2.90487063618089 at x = [0.06652405 0.02552006 0.05298945]
+2024-02-08 16:50:31,009 - dfols.solver - INFO - New rho = 1e-07 after 79 function evaluations
+2024-02-08 16:50:31,011 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:50:31,011 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:50:31,685 - mph - INFO - Finished loading model.
+2024-02-08 16:50:31,698 - mph - INFO - Running study "Discharge".
+2024-02-08 16:50:42,932 - mph - INFO - Finished solving study.
+2024-02-08 16:50:42,934 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:50:46,346 - mph - INFO - Finished running export.
+2024-02-08 16:50:46,405 - dfols.util - INFO - Function eval 80 at point 80 has f = 2.90471720818613 at x = [0.06652383 0.02552023 0.05298938]
+2024-02-08 16:50:46,407 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:50:46,408 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:50:47,034 - mph - INFO - Finished loading model.
+2024-02-08 16:50:47,048 - mph - INFO - Running study "Discharge".
+2024-02-08 16:50:58,288 - mph - INFO - Finished solving study.
+2024-02-08 16:50:58,290 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:51:01,730 - mph - INFO - Finished running export.
+2024-02-08 16:51:01,784 - dfols.util - INFO - Function eval 81 at point 81 has f = 2.9047760369061 at x = [0.06652347 0.02552037 0.05298965]
+2024-02-08 16:51:01,785 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:51:01,786 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:51:02,445 - mph - INFO - Finished loading model.
+2024-02-08 16:51:02,460 - mph - INFO - Running study "Discharge".
+2024-02-08 16:51:13,630 - mph - INFO - Finished solving study.
+2024-02-08 16:51:13,632 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:51:16,932 - mph - INFO - Finished running export.
+2024-02-08 16:51:17,003 - dfols.util - INFO - Function eval 82 at point 82 has f = 2.90472854424677 at x = [0.06652387 0.02552033 0.05298942]
+2024-02-08 16:51:17,004 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:51:17,005 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:51:17,630 - mph - INFO - Finished loading model.
+2024-02-08 16:51:17,644 - mph - INFO - Running study "Discharge".
+2024-02-08 16:51:28,809 - mph - INFO - Finished solving study.
+2024-02-08 16:51:28,810 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:51:32,033 - mph - INFO - Finished running export.
+2024-02-08 16:51:32,094 - dfols.util - INFO - Function eval 83 at point 83 has f = 2.90482441269339 at x = [0.06652377 0.02552033 0.05298913]
+2024-02-08 16:51:32,095 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:51:32,096 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:51:32,721 - mph - INFO - Finished loading model.
+2024-02-08 16:51:32,736 - mph - INFO - Running study "Discharge".
+2024-02-08 16:51:43,838 - mph - INFO - Finished solving study.
+2024-02-08 16:51:43,841 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:51:47,217 - mph - INFO - Finished running export.
+2024-02-08 16:51:47,292 - dfols.util - INFO - Function eval 84 at point 84 has f = 2.90471077430256 at x = [0.06652381 0.02552025 0.0529894 ]
+2024-02-08 16:51:47,293 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:51:47,294 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:51:47,979 - mph - INFO - Finished loading model.
+2024-02-08 16:51:47,992 - mph - INFO - Running study "Discharge".
+2024-02-08 16:51:59,355 - mph - INFO - Finished solving study.
+2024-02-08 16:51:59,357 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:52:02,532 - mph - INFO - Finished running export.
+2024-02-08 16:52:02,591 - dfols.util - INFO - Function eval 85 at point 85 has f = 2.90484134262419 at x = [0.06652378 0.02552018 0.05298952]
+2024-02-08 16:52:02,593 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:52:02,594 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:52:03,232 - mph - INFO - Finished loading model.
+2024-02-08 16:52:03,248 - mph - INFO - Running study "Discharge".
+2024-02-08 16:52:14,630 - mph - INFO - Finished solving study.
+2024-02-08 16:52:14,632 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:52:17,953 - mph - INFO - Finished running export.
+2024-02-08 16:52:18,006 - dfols.util - INFO - Function eval 86 at point 86 has f = 2.90473382498689 at x = [0.06652379 0.02552027 0.05298934]
+2024-02-08 16:52:18,008 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:52:18,009 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:52:18,650 - mph - INFO - Finished loading model.
+2024-02-08 16:52:18,663 - mph - INFO - Running study "Discharge".
+2024-02-08 16:52:29,793 - mph - INFO - Finished solving study.
+2024-02-08 16:52:29,795 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:52:32,991 - mph - INFO - Finished running export.
+2024-02-08 16:52:33,046 - dfols.util - INFO - Function eval 87 at point 87 has f = 2.90473175326606 at x = [0.0665238  0.02552023 0.05298943]
+2024-02-08 16:52:33,048 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:52:33,049 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:52:33,677 - mph - INFO - Finished loading model.
+2024-02-08 16:52:33,691 - mph - INFO - Running study "Discharge".
+2024-02-08 16:52:45,027 - mph - INFO - Finished solving study.
+2024-02-08 16:52:45,029 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:52:48,327 - mph - INFO - Finished running export.
+2024-02-08 16:52:48,380 - dfols.util - INFO - Function eval 88 at point 88 has f = 2.90470371140972 at x = [0.06652381 0.02552026 0.0529894 ]
+2024-02-08 16:52:48,382 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:52:48,383 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:52:49,010 - mph - INFO - Finished loading model.
+2024-02-08 16:52:49,023 - mph - INFO - Running study "Discharge".
+2024-02-08 16:53:00,082 - mph - INFO - Finished solving study.
+2024-02-08 16:53:00,083 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:53:03,249 - mph - INFO - Finished running export.
+2024-02-08 16:53:03,323 - dfols.util - INFO - Function eval 89 at point 89 has f = 2.90470194505935 at x = [0.06652381 0.02552028 0.05298939]
+2024-02-08 16:53:03,323 - dfols.controller - INFO - Slow iteration (1 consecutive so far, max allowed 60)
+2024-02-08 16:53:03,325 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:53:03,326 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:53:03,964 - mph - INFO - Finished loading model.
+2024-02-08 16:53:03,978 - mph - INFO - Running study "Discharge".
+2024-02-08 16:53:15,096 - mph - INFO - Finished solving study.
+2024-02-08 16:53:15,098 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:53:18,366 - mph - INFO - Finished running export.
+2024-02-08 16:53:18,423 - dfols.util - INFO - Function eval 90 at point 90 has f = 2.90469573698803 at x = [0.06652381 0.02552029 0.05298941]
+2024-02-08 16:53:18,424 - dfols.controller - INFO - Slow iteration (2 consecutive so far, max allowed 60)
+2024-02-08 16:53:18,425 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:53:18,426 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:53:19,111 - mph - INFO - Finished loading model.
+2024-02-08 16:53:19,126 - mph - INFO - Running study "Discharge".
+2024-02-08 16:53:30,349 - mph - INFO - Finished solving study.
+2024-02-08 16:53:30,350 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:53:33,599 - mph - INFO - Finished running export.
+2024-02-08 16:53:33,654 - dfols.util - INFO - Function eval 91 at point 91 has f = 2.90467972055571 at x = [0.0665238  0.02552036 0.05298945]
+2024-02-08 16:53:33,655 - dfols.controller - INFO - Slow iteration (3 consecutive so far, max allowed 60)
+2024-02-08 16:53:33,657 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:53:33,658 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:53:34,316 - mph - INFO - Finished loading model.
+2024-02-08 16:53:34,331 - mph - INFO - Running study "Discharge".
+2024-02-08 16:53:45,619 - mph - INFO - Finished solving study.
+2024-02-08 16:53:45,621 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:53:48,854 - mph - INFO - Finished running export.
+2024-02-08 16:53:48,935 - dfols.util - INFO - Function eval 92 at point 92 has f = 2.90475628417791 at x = [0.06652378 0.02552043 0.05298944]
+2024-02-08 16:53:48,937 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:53:48,939 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:53:49,575 - mph - INFO - Finished loading model.
+2024-02-08 16:53:49,588 - mph - INFO - Running study "Discharge".
+2024-02-08 16:54:00,587 - mph - INFO - Finished solving study.
+2024-02-08 16:54:00,589 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:54:03,893 - mph - INFO - Finished running export.
+2024-02-08 16:54:03,950 - dfols.util - INFO - Function eval 93 at point 93 has f = 2.9046833649471 at x = [0.06652383 0.02552036 0.05298946]
+2024-02-08 16:54:03,952 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:54:03,953 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:54:04,600 - mph - INFO - Finished loading model.
+2024-02-08 16:54:04,614 - mph - INFO - Running study "Discharge".
+2024-02-08 16:54:15,654 - mph - INFO - Finished solving study.
+2024-02-08 16:54:15,656 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:54:18,902 - mph - INFO - Finished running export.
+2024-02-08 16:54:18,960 - dfols.util - INFO - Function eval 94 at point 94 has f = 2.90466744939499 at x = [0.0665238  0.02552035 0.05298946]
+2024-02-08 16:54:18,961 - dfols.controller - INFO - Slow iteration (4 consecutive so far, max allowed 60)
+2024-02-08 16:54:18,962 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:54:18,963 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:54:19,625 - mph - INFO - Finished loading model.
+2024-02-08 16:54:19,639 - mph - INFO - Running study "Discharge".
+2024-02-08 16:54:30,802 - mph - INFO - Finished solving study.
+2024-02-08 16:54:30,804 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:54:34,097 - mph - INFO - Finished running export.
+2024-02-08 16:54:34,156 - dfols.util - INFO - Function eval 95 at point 95 has f = 2.90467195778146 at x = [0.0665238  0.02552033 0.05298947]
+2024-02-08 16:54:34,157 - dfols.solver - INFO - Successful run with new f = 2.9046674493949864 compared to old f = 6.993135382804674
+2024-02-08 16:54:34,157 - dfols.solver - INFO - Restarting from finish point (f = 2.90467) after 95 function evals; using rhobeg = 0.2 and rhoend = 1e-07
+2024-02-08 16:54:34,157 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-08 16:54:34,157 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:54:34,158 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:54:34,830 - mph - INFO - Finished loading model.
+2024-02-08 16:54:34,844 - mph - INFO - Running study "Discharge".
+2024-02-08 16:54:46,199 - mph - INFO - Finished solving study.
+2024-02-08 16:54:46,200 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:54:49,272 - mph - INFO - Finished running export.
+2024-02-08 16:54:49,342 - dfols.util - INFO - Function eval 96 at point 96 has f = 5.20369895819629 at x = [0.0965238  0.02552035 0.05298946]
+2024-02-08 16:54:49,342 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:54:49,343 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:54:49,974 - mph - INFO - Finished loading model.
+2024-02-08 16:54:49,989 - mph - INFO - Running study "Discharge".
+2024-02-08 16:55:01,235 - mph - INFO - Finished solving study.
+2024-02-08 16:55:01,237 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:55:04,371 - mph - INFO - Finished running export.
+2024-02-08 16:55:04,430 - dfols.util - INFO - Function eval 97 at point 97 has f = 3.34476761027958 at x = [0.0665238  0.06552035 0.05298946]
+2024-02-08 16:55:04,430 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:55:04,431 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:55:05,069 - mph - INFO - Finished loading model.
+2024-02-08 16:55:05,082 - mph - INFO - Running study "Discharge".
+2024-02-08 16:55:16,090 - mph - INFO - Finished solving study.
+2024-02-08 16:55:16,091 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:55:18,978 - mph - INFO - Finished running export.
+2024-02-08 16:55:19,043 - dfols.util - INFO - Function eval 98 at point 98 has f = 5.94961952877552 at x = [0.0665238  0.02552035 0.09298946]
+2024-02-08 16:55:19,044 - dfols.solver - INFO - Beginning main loop
+2024-02-08 16:55:19,046 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:55:19,047 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:55:19,718 - mph - INFO - Finished loading model.
+2024-02-08 16:55:19,731 - mph - INFO - Running study "Discharge".
+2024-02-08 16:55:31,154 - mph - INFO - Finished solving study.
+2024-02-08 16:55:31,156 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:55:34,558 - mph - INFO - Finished running export.
+2024-02-08 16:55:34,610 - dfols.util - INFO - Function eval 99 at point 99 has f = 2.92151524090035 at x = [0.07520079 0.         0.04633298]
+2024-02-08 16:55:34,611 - dfols.solver - INFO - New rho = 0.02 after 99 function evaluations
+2024-02-08 16:55:34,613 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:55:34,614 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:55:35,292 - mph - INFO - Finished loading model.
+2024-02-08 16:55:35,307 - mph - INFO - Running study "Discharge".
+2024-02-08 16:55:47,224 - mph - INFO - Finished solving study.
+2024-02-08 16:55:47,225 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:55:50,418 - mph - INFO - Finished running export.
+2024-02-08 16:55:50,472 - dfols.util - INFO - Function eval 100 at point 100 has f = 3.75370236967598 at x = [0.06816059 0.04526485 0.05066736]
+2024-02-08 16:55:50,474 - dfols.solver - INFO - Unsuccessful run with new f = 2.9046674493949864 compared to old f = 2.9046674493949864
+2024-02-08 16:55:50,474 - dfols.solver - INFO - Did a total of 3 run(s)
+2024-02-08 16:55:50,475 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 16:55:50,476 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 16:55:51,148 - mph - INFO - Finished loading model.
+2024-02-08 16:55:51,160 - mph - INFO - Running study "Discharge".
+2024-02-08 16:56:02,444 - mph - INFO - Finished solving study.
+2024-02-08 16:56:02,445 - mph - INFO - Running export node "Discharge".
+2024-02-08 16:56:05,783 - mph - INFO - Finished running export.
+2024-02-08 17:00:58,955 - mph - INFO - Exiting the Java virtual machine.
+2024-02-08 17:07:36,482 - pyswarms.single.local_best - INFO - Optimize for 10 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9, 'k': 3, 'p': 3}
+2024-02-08 17:07:36,486 - mph - INFO - Starting local Comsol session.
+2024-02-08 17:07:37,236 - mph - INFO - Starting Java virtual machine.
+2024-02-08 17:07:37,961 - mph - INFO - Java virtual machine has started.
+2024-02-08 17:07:39,018 - mph - INFO - Initializing stand-alone client.
+2024-02-08 17:07:42,273 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 17:07:42,276 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 17:07:42,277 - mph - INFO - Stand-alone client initialized.
+2024-02-08 17:07:42,278 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:07:52,762 - mph - INFO - Finished loading model.
+2024-02-08 17:07:53,006 - mph - INFO - Running study "Discharge".
+2024-02-08 17:08:11,307 - mph - INFO - Finished solving study.
+2024-02-08 17:08:11,350 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:08:15,110 - mph - INFO - Finished running export.
+2024-02-08 17:08:15,396 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:08:15,397 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:08:17,002 - mph - INFO - Finished loading model.
+2024-02-08 17:08:17,033 - mph - INFO - Running study "Discharge".
+2024-02-08 17:08:31,344 - mph - INFO - Finished solving study.
+2024-02-08 17:08:31,378 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:08:34,865 - mph - INFO - Finished running export.
+2024-02-08 17:08:34,949 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:08:34,952 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:08:36,633 - mph - INFO - Finished loading model.
+2024-02-08 17:08:36,662 - mph - INFO - Running study "Discharge".
+2024-02-08 17:08:54,690 - mph - INFO - Finished solving study.
+2024-02-08 17:08:54,724 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:08:58,301 - mph - INFO - Finished running export.
+2024-02-08 17:08:58,471 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:08:58,473 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:09:00,250 - mph - INFO - Finished loading model.
+2024-02-08 17:09:00,295 - mph - INFO - Running study "Discharge".
+2024-02-08 17:09:16,653 - mph - INFO - Finished solving study.
+2024-02-08 17:09:16,655 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:09:20,331 - mph - INFO - Finished running export.
+2024-02-08 17:09:20,396 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:09:20,397 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:09:21,415 - mph - INFO - Finished loading model.
+2024-02-08 17:09:21,436 - mph - INFO - Running study "Discharge".
+2024-02-08 17:09:35,087 - mph - INFO - Finished solving study.
+2024-02-08 17:09:35,088 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:09:38,725 - mph - INFO - Finished running export.
+2024-02-08 17:09:38,791 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:09:38,792 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:09:39,691 - mph - INFO - Finished loading model.
+2024-02-08 17:09:39,713 - mph - INFO - Running study "Discharge".
+2024-02-08 17:09:50,799 - mph - INFO - Finished solving study.
+2024-02-08 17:09:50,801 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:09:54,184 - mph - INFO - Finished running export.
+2024-02-08 17:09:54,252 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:09:54,253 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:09:55,068 - mph - INFO - Finished loading model.
+2024-02-08 17:09:55,086 - mph - INFO - Running study "Discharge".
+2024-02-08 17:10:06,904 - mph - INFO - Finished solving study.
+2024-02-08 17:10:06,906 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:10:10,230 - mph - INFO - Finished running export.
+2024-02-08 17:10:10,282 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:10:10,283 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:10:11,156 - mph - INFO - Finished loading model.
+2024-02-08 17:10:11,176 - mph - INFO - Running study "Discharge".
+2024-02-08 17:10:25,212 - mph - INFO - Finished solving study.
+2024-02-08 17:10:25,215 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:10:28,284 - mph - INFO - Finished running export.
+2024-02-08 17:10:28,339 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:10:28,340 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:10:29,168 - mph - INFO - Finished loading model.
+2024-02-08 17:10:29,186 - mph - INFO - Running study "Discharge".
+2024-02-08 17:10:40,893 - mph - INFO - Finished solving study.
+2024-02-08 17:10:40,895 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:10:43,870 - mph - INFO - Finished running export.
+2024-02-08 17:10:43,942 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:10:43,943 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:10:44,688 - mph - INFO - Finished loading model.
+2024-02-08 17:10:44,707 - mph - INFO - Running study "Discharge".
+2024-02-08 17:10:55,877 - mph - INFO - Finished solving study.
+2024-02-08 17:10:55,879 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:10:59,630 - mph - INFO - Finished running export.
+2024-02-08 17:10:59,696 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:10:59,696 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:11:00,758 - mph - INFO - Finished loading model.
+2024-02-08 17:11:00,774 - mph - INFO - Running study "Discharge".
+2024-02-08 17:11:11,799 - mph - INFO - Finished solving study.
+2024-02-08 17:11:11,799 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:11:14,669 - mph - INFO - Finished running export.
+2024-02-08 17:11:14,747 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:11:14,747 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:11:15,515 - mph - INFO - Finished loading model.
+2024-02-08 17:11:15,532 - mph - INFO - Running study "Discharge".
+2024-02-08 17:11:27,601 - mph - INFO - Finished solving study.
+2024-02-08 17:11:27,601 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:11:30,550 - mph - INFO - Finished running export.
+2024-02-08 17:11:30,612 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:11:30,612 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:11:31,380 - mph - INFO - Finished loading model.
+2024-02-08 17:11:31,396 - mph - INFO - Running study "Discharge".
+2024-02-08 17:11:45,399 - mph - INFO - Finished solving study.
+2024-02-08 17:11:45,399 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:11:48,849 - mph - INFO - Finished running export.
+2024-02-08 17:11:48,912 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:11:48,912 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:11:49,743 - mph - INFO - Finished loading model.
+2024-02-08 17:11:49,758 - mph - INFO - Running study "Discharge".
+2024-02-08 17:12:02,742 - mph - INFO - Finished solving study.
+2024-02-08 17:12:02,742 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:12:06,083 - mph - INFO - Finished running export.
+2024-02-08 17:12:06,161 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:12:06,161 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:12:06,961 - mph - INFO - Finished loading model.
+2024-02-08 17:12:06,977 - mph - INFO - Running study "Discharge".
+2024-02-08 17:12:18,538 - mph - INFO - Finished solving study.
+2024-02-08 17:12:18,538 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:12:21,739 - mph - INFO - Finished running export.
+2024-02-08 17:12:21,801 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:12:21,801 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:12:22,569 - mph - INFO - Finished loading model.
+2024-02-08 17:12:22,585 - mph - INFO - Running study "Discharge".
+2024-02-08 17:12:35,675 - mph - INFO - Finished solving study.
+2024-02-08 17:12:35,675 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:12:39,513 - mph - INFO - Finished running export.
+2024-02-08 17:12:39,569 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:12:39,569 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:12:40,259 - mph - INFO - Finished loading model.
+2024-02-08 17:12:40,275 - mph - INFO - Running study "Discharge".
+2024-02-08 17:12:53,052 - mph - INFO - Finished solving study.
+2024-02-08 17:12:53,054 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:12:56,465 - mph - INFO - Finished running export.
+2024-02-08 17:12:56,517 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:12:56,518 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:12:57,374 - mph - INFO - Finished loading model.
+2024-02-08 17:12:57,391 - mph - INFO - Running study "Discharge".
+2024-02-08 17:13:09,635 - mph - INFO - Finished solving study.
+2024-02-08 17:13:09,664 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:13:13,518 - mph - INFO - Finished running export.
+2024-02-08 17:13:13,593 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:13:13,594 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:13:14,483 - mph - INFO - Finished loading model.
+2024-02-08 17:13:14,499 - mph - INFO - Running study "Discharge".
+2024-02-08 17:13:28,495 - mph - INFO - Finished solving study.
+2024-02-08 17:13:28,496 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:13:32,898 - mph - INFO - Finished running export.
+2024-02-08 17:13:32,980 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:13:32,981 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:13:33,892 - mph - INFO - Finished loading model.
+2024-02-08 17:13:33,908 - mph - INFO - Running study "Discharge".
+2024-02-08 17:13:45,991 - mph - INFO - Finished solving study.
+2024-02-08 17:13:45,993 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:13:50,431 - mph - INFO - Finished running export.
+2024-02-08 17:13:50,488 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:13:50,490 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:13:51,218 - mph - INFO - Finished loading model.
+2024-02-08 17:13:51,235 - mph - INFO - Running study "Discharge".
+2024-02-08 17:14:04,821 - mph - INFO - Finished solving study.
+2024-02-08 17:14:04,823 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:14:08,572 - mph - INFO - Finished running export.
+2024-02-08 17:14:08,634 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:14:08,635 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:14:09,469 - mph - INFO - Finished loading model.
+2024-02-08 17:14:09,485 - mph - INFO - Running study "Discharge".
+2024-02-08 17:14:22,254 - mph - INFO - Finished solving study.
+2024-02-08 17:14:22,256 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:14:25,884 - mph - INFO - Finished running export.
+2024-02-08 17:14:25,955 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:14:25,956 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:14:27,079 - mph - INFO - Finished loading model.
+2024-02-08 17:14:27,098 - mph - INFO - Running study "Discharge".
+2024-02-08 17:14:42,649 - mph - INFO - Finished solving study.
+2024-02-08 17:14:42,652 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:14:46,158 - mph - INFO - Finished running export.
+2024-02-08 17:14:46,234 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:14:46,235 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:14:46,955 - mph - INFO - Finished loading model.
+2024-02-08 17:14:46,973 - mph - INFO - Running study "Discharge".
+2024-02-08 17:15:00,744 - mph - INFO - Finished solving study.
+2024-02-08 17:15:00,746 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:15:04,483 - mph - INFO - Finished running export.
+2024-02-08 17:15:04,550 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:15:04,552 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:15:05,387 - mph - INFO - Finished loading model.
+2024-02-08 17:15:05,402 - mph - INFO - Running study "Discharge".
+2024-02-08 17:15:17,619 - mph - INFO - Finished solving study.
+2024-02-08 17:15:17,620 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:15:20,747 - mph - INFO - Finished running export.
+2024-02-08 17:15:20,799 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:15:20,800 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:15:21,515 - mph - INFO - Finished loading model.
+2024-02-08 17:15:21,531 - mph - INFO - Running study "Discharge".
+2024-02-08 17:15:32,476 - mph - INFO - Finished solving study.
+2024-02-08 17:15:32,479 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:15:35,799 - mph - INFO - Finished running export.
+2024-02-08 17:15:35,854 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:15:35,855 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:15:36,647 - mph - INFO - Finished loading model.
+2024-02-08 17:15:36,663 - mph - INFO - Running study "Discharge".
+2024-02-08 17:15:50,081 - mph - INFO - Finished solving study.
+2024-02-08 17:15:50,081 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:15:53,613 - mph - INFO - Finished running export.
+2024-02-08 17:15:53,675 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:15:53,676 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:15:54,347 - mph - INFO - Finished loading model.
+2024-02-08 17:15:54,362 - mph - INFO - Running study "Discharge".
+2024-02-08 17:16:07,576 - mph - INFO - Finished solving study.
+2024-02-08 17:16:07,770 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:16:11,203 - mph - INFO - Finished running export.
+2024-02-08 17:16:11,272 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:16:11,273 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:16:12,045 - mph - INFO - Finished loading model.
+2024-02-08 17:16:12,061 - mph - INFO - Running study "Discharge".
+2024-02-08 17:16:25,416 - mph - INFO - Finished solving study.
+2024-02-08 17:16:25,418 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:16:29,056 - mph - INFO - Finished running export.
+2024-02-08 17:16:29,118 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:16:29,119 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:16:29,940 - mph - INFO - Finished loading model.
+2024-02-08 17:16:29,957 - mph - INFO - Running study "Discharge".
+2024-02-08 17:16:41,932 - mph - INFO - Finished solving study.
+2024-02-08 17:16:41,934 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:16:44,789 - mph - INFO - Finished running export.
+2024-02-08 17:16:44,862 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:16:44,863 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:16:45,642 - mph - INFO - Finished loading model.
+2024-02-08 17:16:45,660 - mph - INFO - Running study "Discharge".
+2024-02-08 17:16:57,783 - mph - INFO - Finished solving study.
+2024-02-08 17:16:57,785 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:17:00,661 - mph - INFO - Finished running export.
+2024-02-08 17:17:00,718 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:17:00,719 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:17:01,465 - mph - INFO - Finished loading model.
+2024-02-08 17:17:01,481 - mph - INFO - Running study "Discharge".
+2024-02-08 17:17:13,314 - mph - INFO - Finished solving study.
+2024-02-08 17:17:13,316 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:17:17,281 - mph - INFO - Finished running export.
+2024-02-08 17:17:17,356 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:17:17,357 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:17:18,381 - mph - INFO - Finished loading model.
+2024-02-08 17:17:18,396 - mph - INFO - Running study "Discharge".
+2024-02-08 17:17:31,034 - mph - INFO - Finished solving study.
+2024-02-08 17:17:31,036 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:17:34,640 - mph - INFO - Finished running export.
+2024-02-08 17:17:34,691 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:17:34,692 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:17:35,524 - mph - INFO - Finished loading model.
+2024-02-08 17:17:35,551 - mph - INFO - Running study "Discharge".
+2024-02-08 17:17:48,463 - mph - INFO - Finished solving study.
+2024-02-08 17:17:48,465 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:17:52,572 - mph - INFO - Finished running export.
+2024-02-08 17:17:52,628 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:17:52,629 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:17:53,357 - mph - INFO - Finished loading model.
+2024-02-08 17:17:53,375 - mph - INFO - Running study "Discharge".
+2024-02-08 17:18:06,295 - mph - INFO - Finished solving study.
+2024-02-08 17:18:06,296 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:18:09,811 - mph - INFO - Finished running export.
+2024-02-08 17:18:09,872 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:18:09,872 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:18:10,613 - mph - INFO - Finished loading model.
+2024-02-08 17:18:10,631 - mph - INFO - Running study "Discharge".
+2024-02-08 17:18:22,728 - mph - INFO - Finished solving study.
+2024-02-08 17:18:22,730 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:18:26,305 - mph - INFO - Finished running export.
+2024-02-08 17:18:26,360 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:18:26,361 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:18:27,058 - mph - INFO - Finished loading model.
+2024-02-08 17:18:27,072 - mph - INFO - Running study "Discharge".
+2024-02-08 17:18:39,445 - mph - INFO - Finished solving study.
+2024-02-08 17:18:39,446 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:18:43,620 - mph - INFO - Finished running export.
+2024-02-08 17:18:43,674 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:18:43,675 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:18:44,435 - mph - INFO - Finished loading model.
+2024-02-08 17:18:44,450 - mph - INFO - Running study "Discharge".
+2024-02-08 17:18:58,307 - mph - INFO - Finished solving study.
+2024-02-08 17:18:58,309 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:19:02,202 - mph - INFO - Finished running export.
+2024-02-08 17:19:02,263 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:19:02,264 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:19:03,159 - mph - INFO - Finished loading model.
+2024-02-08 17:19:03,175 - mph - INFO - Running study "Discharge".
+2024-02-08 17:19:14,705 - mph - INFO - Finished solving study.
+2024-02-08 17:19:14,706 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:19:18,092 - mph - INFO - Finished running export.
+2024-02-08 17:19:18,165 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:19:18,166 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:19:18,995 - mph - INFO - Finished loading model.
+2024-02-08 17:19:19,010 - mph - INFO - Running study "Discharge".
+2024-02-08 17:19:33,341 - mph - INFO - Finished solving study.
+2024-02-08 17:19:33,343 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:19:36,878 - mph - INFO - Finished running export.
+2024-02-08 17:19:36,940 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:19:36,941 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:19:37,691 - mph - INFO - Finished loading model.
+2024-02-08 17:19:37,707 - mph - INFO - Running study "Discharge".
+2024-02-08 17:19:48,938 - mph - INFO - Finished solving study.
+2024-02-08 17:19:48,941 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:19:52,753 - mph - INFO - Finished running export.
+2024-02-08 17:19:52,821 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:19:52,822 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:19:54,083 - mph - INFO - Finished loading model.
+2024-02-08 17:19:54,098 - mph - INFO - Running study "Discharge".
+2024-02-08 17:20:07,326 - mph - INFO - Finished solving study.
+2024-02-08 17:20:07,328 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:20:11,036 - mph - INFO - Finished running export.
+2024-02-08 17:20:11,099 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:20:11,100 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:20:11,829 - mph - INFO - Finished loading model.
+2024-02-08 17:20:11,844 - mph - INFO - Running study "Discharge".
+2024-02-08 17:20:22,908 - mph - INFO - Finished solving study.
+2024-02-08 17:20:22,910 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:20:25,918 - mph - INFO - Finished running export.
+2024-02-08 17:20:25,976 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:20:25,977 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:20:26,780 - mph - INFO - Finished loading model.
+2024-02-08 17:20:26,796 - mph - INFO - Running study "Discharge".
+2024-02-08 17:20:39,240 - mph - INFO - Finished solving study.
+2024-02-08 17:20:39,268 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:20:42,102 - mph - INFO - Finished running export.
+2024-02-08 17:20:42,165 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:20:42,166 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:20:42,920 - mph - INFO - Finished loading model.
+2024-02-08 17:20:42,935 - mph - INFO - Running study "Discharge".
+2024-02-08 17:20:55,173 - mph - INFO - Finished solving study.
+2024-02-08 17:20:55,175 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:20:58,595 - mph - INFO - Finished running export.
+2024-02-08 17:20:58,667 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:20:58,668 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:20:59,398 - mph - INFO - Finished loading model.
+2024-02-08 17:20:59,412 - mph - INFO - Running study "Discharge".
+2024-02-08 17:21:14,038 - mph - INFO - Finished solving study.
+2024-02-08 17:21:14,040 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:21:17,825 - mph - INFO - Finished running export.
+2024-02-08 17:21:17,884 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:21:17,885 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:21:18,614 - mph - INFO - Finished loading model.
+2024-02-08 17:21:18,631 - mph - INFO - Running study "Discharge".
+2024-02-08 17:21:31,032 - mph - INFO - Finished solving study.
+2024-02-08 17:21:31,034 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:21:34,074 - mph - INFO - Finished running export.
+2024-02-08 17:21:34,129 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:21:34,130 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:21:34,892 - mph - INFO - Finished loading model.
+2024-02-08 17:21:34,907 - mph - INFO - Running study "Discharge".
+2024-02-08 17:21:45,961 - mph - INFO - Finished solving study.
+2024-02-08 17:21:45,962 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:21:49,115 - mph - INFO - Finished running export.
+2024-02-08 17:21:49,174 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:21:49,175 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:21:49,901 - mph - INFO - Finished loading model.
+2024-02-08 17:21:49,916 - mph - INFO - Running study "Discharge".
+2024-02-08 17:22:03,144 - mph - INFO - Finished solving study.
+2024-02-08 17:22:03,146 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:22:06,823 - mph - INFO - Finished running export.
+2024-02-08 17:22:06,890 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:22:06,891 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:22:07,671 - mph - INFO - Finished loading model.
+2024-02-08 17:22:07,685 - mph - INFO - Running study "Discharge".
+2024-02-08 17:22:20,037 - mph - INFO - Finished solving study.
+2024-02-08 17:22:20,039 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:22:22,994 - mph - INFO - Finished running export.
+2024-02-08 17:22:23,051 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:22:23,051 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:22:23,759 - mph - INFO - Finished loading model.
+2024-02-08 17:22:23,773 - mph - INFO - Running study "Discharge".
+2024-02-08 17:22:37,450 - mph - INFO - Finished solving study.
+2024-02-08 17:22:37,452 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:22:41,267 - mph - INFO - Finished running export.
+2024-02-08 17:22:41,338 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:22:41,339 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:22:41,976 - mph - INFO - Finished loading model.
+2024-02-08 17:22:41,994 - mph - INFO - Running study "Discharge".
+2024-02-08 17:22:54,618 - mph - INFO - Finished solving study.
+2024-02-08 17:22:54,620 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:22:57,619 - mph - INFO - Finished running export.
+2024-02-08 17:22:57,675 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:22:57,676 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:22:58,377 - mph - INFO - Finished loading model.
+2024-02-08 17:22:58,392 - mph - INFO - Running study "Discharge".
+2024-02-08 17:23:12,132 - mph - INFO - Finished solving study.
+2024-02-08 17:23:12,135 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:23:16,056 - mph - INFO - Finished running export.
+2024-02-08 17:23:16,110 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:23:16,112 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:23:16,762 - mph - INFO - Finished loading model.
+2024-02-08 17:23:16,776 - mph - INFO - Running study "Discharge".
+2024-02-08 17:23:29,897 - mph - INFO - Finished solving study.
+2024-02-08 17:23:29,899 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:23:33,111 - mph - INFO - Finished running export.
+2024-02-08 17:23:33,174 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:23:33,175 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:23:33,916 - mph - INFO - Finished loading model.
+2024-02-08 17:23:33,933 - mph - INFO - Running study "Discharge".
+2024-02-08 17:23:47,162 - mph - INFO - Finished solving study.
+2024-02-08 17:23:47,164 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:23:50,581 - mph - INFO - Finished running export.
+2024-02-08 17:23:50,646 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:23:50,647 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:23:51,410 - mph - INFO - Finished loading model.
+2024-02-08 17:23:51,424 - mph - INFO - Running study "Discharge".
+2024-02-08 17:24:05,639 - mph - INFO - Finished solving study.
+2024-02-08 17:24:05,641 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:24:08,830 - mph - INFO - Finished running export.
+2024-02-08 17:24:08,885 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:24:08,885 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:24:09,521 - mph - INFO - Finished loading model.
+2024-02-08 17:24:09,537 - mph - INFO - Running study "Discharge".
+2024-02-08 17:24:21,347 - mph - INFO - Finished solving study.
+2024-02-08 17:24:21,349 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:24:24,495 - mph - INFO - Finished running export.
+2024-02-08 17:24:24,562 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:24:24,563 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:24:25,245 - mph - INFO - Finished loading model.
+2024-02-08 17:24:25,259 - mph - INFO - Running study "Discharge".
+2024-02-08 17:24:37,023 - mph - INFO - Finished solving study.
+2024-02-08 17:24:37,025 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:24:40,296 - mph - INFO - Finished running export.
+2024-02-08 17:24:40,350 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:24:40,351 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:24:41,153 - mph - INFO - Finished loading model.
+2024-02-08 17:24:41,167 - mph - INFO - Running study "Discharge".
+2024-02-08 17:24:51,026 - mph - INFO - Finished solving study.
+2024-02-08 17:24:51,028 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:24:53,986 - mph - INFO - Finished running export.
+2024-02-08 17:24:54,048 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:24:54,049 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:24:54,702 - mph - INFO - Finished loading model.
+2024-02-08 17:24:54,715 - mph - INFO - Running study "Discharge".
+2024-02-08 17:25:04,945 - mph - INFO - Finished solving study.
+2024-02-08 17:25:04,947 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:25:07,682 - mph - INFO - Finished running export.
+2024-02-08 17:25:07,750 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:25:07,751 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:25:08,430 - mph - INFO - Finished loading model.
+2024-02-08 17:25:08,444 - mph - INFO - Running study "Discharge".
+2024-02-08 17:25:20,413 - mph - INFO - Finished solving study.
+2024-02-08 17:25:20,416 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:25:23,665 - mph - INFO - Finished running export.
+2024-02-08 17:25:23,724 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:25:23,725 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:25:24,431 - mph - INFO - Finished loading model.
+2024-02-08 17:25:24,447 - mph - INFO - Running study "Discharge".
+2024-02-08 17:25:34,879 - mph - INFO - Finished solving study.
+2024-02-08 17:25:34,881 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:25:37,540 - mph - INFO - Finished running export.
+2024-02-08 17:25:37,596 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:25:37,597 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:25:38,250 - mph - INFO - Finished loading model.
+2024-02-08 17:25:38,265 - mph - INFO - Running study "Discharge".
+2024-02-08 17:25:50,657 - mph - INFO - Finished solving study.
+2024-02-08 17:25:50,659 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:25:54,331 - mph - INFO - Finished running export.
+2024-02-08 17:25:54,387 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:25:54,387 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:25:55,090 - mph - INFO - Finished loading model.
+2024-02-08 17:25:55,104 - mph - INFO - Running study "Discharge".
+2024-02-08 17:26:07,029 - mph - INFO - Finished solving study.
+2024-02-08 17:26:07,031 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:26:10,109 - mph - INFO - Finished running export.
+2024-02-08 17:26:10,176 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:26:10,177 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:26:10,814 - mph - INFO - Finished loading model.
+2024-02-08 17:26:10,827 - mph - INFO - Running study "Discharge".
+2024-02-08 17:26:22,931 - mph - INFO - Finished solving study.
+2024-02-08 17:26:22,959 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:26:26,192 - mph - INFO - Finished running export.
+2024-02-08 17:26:26,245 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:26:26,246 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:26:27,111 - mph - INFO - Finished loading model.
+2024-02-08 17:26:27,125 - mph - INFO - Running study "Discharge".
+2024-02-08 17:26:39,003 - mph - INFO - Finished solving study.
+2024-02-08 17:26:39,005 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:26:42,711 - mph - INFO - Finished running export.
+2024-02-08 17:26:42,769 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:26:42,771 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:26:43,451 - mph - INFO - Finished loading model.
+2024-02-08 17:26:43,465 - mph - INFO - Running study "Discharge".
+2024-02-08 17:26:55,421 - mph - INFO - Finished solving study.
+2024-02-08 17:26:55,422 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:26:58,125 - mph - INFO - Finished running export.
+2024-02-08 17:26:58,188 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:26:58,189 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:26:58,836 - mph - INFO - Finished loading model.
+2024-02-08 17:26:58,851 - mph - INFO - Running study "Discharge".
+2024-02-08 17:27:11,027 - mph - INFO - Finished solving study.
+2024-02-08 17:27:11,029 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:27:13,842 - mph - INFO - Finished running export.
+2024-02-08 17:27:13,898 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:27:13,899 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:27:14,535 - mph - INFO - Finished loading model.
+2024-02-08 17:27:14,550 - mph - INFO - Running study "Discharge".
+2024-02-08 17:27:27,030 - mph - INFO - Finished solving study.
+2024-02-08 17:27:27,031 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:27:30,736 - mph - INFO - Finished running export.
+2024-02-08 17:27:30,810 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:27:30,811 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:27:31,493 - mph - INFO - Finished loading model.
+2024-02-08 17:27:31,507 - mph - INFO - Running study "Discharge".
+2024-02-08 17:27:44,051 - mph - INFO - Finished solving study.
+2024-02-08 17:27:44,053 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:27:46,924 - mph - INFO - Finished running export.
+2024-02-08 17:27:46,988 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:27:46,989 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:27:47,714 - mph - INFO - Finished loading model.
+2024-02-08 17:27:47,728 - mph - INFO - Running study "Discharge".
+2024-02-08 17:27:58,851 - mph - INFO - Finished solving study.
+2024-02-08 17:27:58,853 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:28:02,267 - mph - INFO - Finished running export.
+2024-02-08 17:28:02,332 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:28:02,333 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:28:02,951 - mph - INFO - Finished loading model.
+2024-02-08 17:28:02,966 - mph - INFO - Running study "Discharge".
+2024-02-08 17:28:15,531 - mph - INFO - Finished solving study.
+2024-02-08 17:28:15,533 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:28:18,611 - mph - INFO - Finished running export.
+2024-02-08 17:28:18,670 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:28:18,671 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:28:19,363 - mph - INFO - Finished loading model.
+2024-02-08 17:28:19,376 - mph - INFO - Running study "Discharge".
+2024-02-08 17:28:29,552 - mph - INFO - Finished solving study.
+2024-02-08 17:28:29,554 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:28:32,121 - mph - INFO - Finished running export.
+2024-02-08 17:28:32,188 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:28:32,189 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:28:32,859 - mph - INFO - Finished loading model.
+2024-02-08 17:28:32,875 - mph - INFO - Running study "Discharge".
+2024-02-08 17:28:44,640 - mph - INFO - Finished solving study.
+2024-02-08 17:28:44,642 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:28:48,277 - mph - INFO - Finished running export.
+2024-02-08 17:28:48,337 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:28:48,338 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:28:48,980 - mph - INFO - Finished loading model.
+2024-02-08 17:28:48,994 - mph - INFO - Running study "Discharge".
+2024-02-08 17:29:00,219 - mph - INFO - Finished solving study.
+2024-02-08 17:29:00,221 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:29:03,064 - mph - INFO - Finished running export.
+2024-02-08 17:29:03,119 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:29:03,120 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:29:03,774 - mph - INFO - Finished loading model.
+2024-02-08 17:29:03,788 - mph - INFO - Running study "Discharge".
+2024-02-08 17:29:15,280 - mph - INFO - Finished solving study.
+2024-02-08 17:29:15,282 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:29:18,814 - mph - INFO - Finished running export.
+2024-02-08 17:29:18,874 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:29:18,875 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:29:19,548 - mph - INFO - Finished loading model.
+2024-02-08 17:29:19,563 - mph - INFO - Running study "Discharge".
+2024-02-08 17:29:32,033 - mph - INFO - Finished solving study.
+2024-02-08 17:29:32,035 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:29:35,657 - mph - INFO - Finished running export.
+2024-02-08 17:29:35,715 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:29:35,716 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:29:36,367 - mph - INFO - Finished loading model.
+2024-02-08 17:29:36,380 - mph - INFO - Running study "Discharge".
+2024-02-08 17:29:47,202 - mph - INFO - Finished solving study.
+2024-02-08 17:29:47,204 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:29:50,489 - mph - INFO - Finished running export.
+2024-02-08 17:29:50,542 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:29:50,542 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:29:51,241 - mph - INFO - Finished loading model.
+2024-02-08 17:29:51,256 - mph - INFO - Running study "Discharge".
+2024-02-08 17:30:02,583 - mph - INFO - Finished solving study.
+2024-02-08 17:30:02,585 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:30:06,129 - mph - INFO - Finished running export.
+2024-02-08 17:30:06,191 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:30:06,192 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:30:06,852 - mph - INFO - Finished loading model.
+2024-02-08 17:30:06,866 - mph - INFO - Running study "Discharge".
+2024-02-08 17:30:17,705 - mph - INFO - Finished solving study.
+2024-02-08 17:30:17,707 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:30:20,885 - mph - INFO - Finished running export.
+2024-02-08 17:30:20,947 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:30:20,948 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:30:21,579 - mph - INFO - Finished loading model.
+2024-02-08 17:30:21,593 - mph - INFO - Running study "Discharge".
+2024-02-08 17:30:33,783 - mph - INFO - Finished solving study.
+2024-02-08 17:30:33,785 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:30:37,292 - mph - INFO - Finished running export.
+2024-02-08 17:30:37,349 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:30:37,350 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:30:37,983 - mph - INFO - Finished loading model.
+2024-02-08 17:30:37,997 - mph - INFO - Running study "Discharge".
+2024-02-08 17:30:50,417 - mph - INFO - Finished solving study.
+2024-02-08 17:30:50,419 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:30:53,878 - mph - INFO - Finished running export.
+2024-02-08 17:30:53,932 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:30:53,933 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:30:54,581 - mph - INFO - Finished loading model.
+2024-02-08 17:30:54,596 - mph - INFO - Running study "Discharge".
+2024-02-08 17:31:05,367 - mph - INFO - Finished solving study.
+2024-02-08 17:31:05,368 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:31:08,170 - mph - INFO - Finished running export.
+2024-02-08 17:31:08,224 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:31:08,225 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:31:08,896 - mph - INFO - Finished loading model.
+2024-02-08 17:31:08,911 - mph - INFO - Running study "Discharge".
+2024-02-08 17:31:20,826 - mph - INFO - Finished solving study.
+2024-02-08 17:31:20,828 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:31:24,222 - mph - INFO - Finished running export.
+2024-02-08 17:31:24,279 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:31:24,280 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:31:24,964 - mph - INFO - Finished loading model.
+2024-02-08 17:31:24,978 - mph - INFO - Running study "Discharge".
+2024-02-08 17:31:34,796 - mph - INFO - Finished solving study.
+2024-02-08 17:31:34,797 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:31:37,764 - mph - INFO - Finished running export.
+2024-02-08 17:31:37,823 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:31:37,824 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:31:38,485 - mph - INFO - Finished loading model.
+2024-02-08 17:31:38,498 - mph - INFO - Running study "Discharge".
+2024-02-08 17:31:48,853 - mph - INFO - Finished solving study.
+2024-02-08 17:31:48,854 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:31:51,559 - mph - INFO - Finished running export.
+2024-02-08 17:31:51,620 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:31:51,621 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:31:52,280 - mph - INFO - Finished loading model.
+2024-02-08 17:31:52,295 - mph - INFO - Running study "Discharge".
+2024-02-08 17:32:04,617 - mph - INFO - Finished solving study.
+2024-02-08 17:32:04,619 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:32:07,982 - mph - INFO - Finished running export.
+2024-02-08 17:32:08,039 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:32:08,040 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:32:08,717 - mph - INFO - Finished loading model.
+2024-02-08 17:32:08,731 - mph - INFO - Running study "Discharge".
+2024-02-08 17:32:19,882 - mph - INFO - Finished solving study.
+2024-02-08 17:32:19,885 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:32:22,886 - mph - INFO - Finished running export.
+2024-02-08 17:32:22,940 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:32:22,941 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:32:23,688 - mph - INFO - Finished loading model.
+2024-02-08 17:32:23,702 - mph - INFO - Running study "Discharge".
+2024-02-08 17:32:36,172 - mph - INFO - Finished solving study.
+2024-02-08 17:32:36,173 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:32:39,393 - mph - INFO - Finished running export.
+2024-02-08 17:32:39,475 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:32:39,476 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:32:40,287 - mph - INFO - Finished loading model.
+2024-02-08 17:32:40,300 - mph - INFO - Running study "Discharge".
+2024-02-08 17:32:53,444 - mph - INFO - Finished solving study.
+2024-02-08 17:32:53,445 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:32:56,935 - mph - INFO - Finished running export.
+2024-02-08 17:32:56,991 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:32:56,992 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:32:57,663 - mph - INFO - Finished loading model.
+2024-02-08 17:32:57,676 - mph - INFO - Running study "Discharge".
+2024-02-08 17:33:09,437 - mph - INFO - Finished solving study.
+2024-02-08 17:33:09,439 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:33:12,600 - mph - INFO - Finished running export.
+2024-02-08 17:33:12,651 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:33:12,652 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:33:13,252 - mph - INFO - Finished loading model.
+2024-02-08 17:33:13,265 - mph - INFO - Running study "Discharge".
+2024-02-08 17:33:24,317 - mph - INFO - Finished solving study.
+2024-02-08 17:33:24,319 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:33:27,581 - mph - INFO - Finished running export.
+2024-02-08 17:33:27,655 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:33:27,656 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:33:28,301 - mph - INFO - Finished loading model.
+2024-02-08 17:33:28,314 - mph - INFO - Running study "Discharge".
+2024-02-08 17:33:39,298 - mph - INFO - Finished solving study.
+2024-02-08 17:33:39,300 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:33:42,562 - mph - INFO - Finished running export.
+2024-02-08 17:33:42,614 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:33:42,615 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:33:43,286 - mph - INFO - Finished loading model.
+2024-02-08 17:33:43,299 - mph - INFO - Running study "Discharge".
+2024-02-08 17:33:53,174 - mph - INFO - Finished solving study.
+2024-02-08 17:33:53,175 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:33:55,749 - mph - INFO - Finished running export.
+2024-02-08 17:33:55,799 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:33:55,800 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:33:56,430 - mph - INFO - Finished loading model.
+2024-02-08 17:33:56,443 - mph - INFO - Running study "Discharge".
+2024-02-08 17:34:06,688 - mph - INFO - Finished solving study.
+2024-02-08 17:34:06,690 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:34:09,893 - mph - INFO - Finished running export.
+2024-02-08 17:34:09,947 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:34:09,947 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:34:10,595 - mph - INFO - Finished loading model.
+2024-02-08 17:34:10,610 - mph - INFO - Running study "Discharge".
+2024-02-08 17:34:21,889 - mph - INFO - Finished solving study.
+2024-02-08 17:34:21,891 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:34:24,921 - mph - INFO - Finished running export.
+2024-02-08 17:34:24,981 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:34:24,982 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:34:25,628 - mph - INFO - Finished loading model.
+2024-02-08 17:34:25,643 - mph - INFO - Running study "Discharge".
+2024-02-08 17:34:36,098 - mph - INFO - Finished solving study.
+2024-02-08 17:34:36,100 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:34:38,944 - mph - INFO - Finished running export.
+2024-02-08 17:34:39,000 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:34:39,001 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:34:39,827 - mph - INFO - Finished loading model.
+2024-02-08 17:34:39,845 - mph - INFO - Running study "Discharge".
+2024-02-08 17:34:50,512 - mph - INFO - Finished solving study.
+2024-02-08 17:34:50,514 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:34:53,211 - mph - INFO - Finished running export.
+2024-02-08 17:34:53,277 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:34:53,279 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:34:53,939 - mph - INFO - Finished loading model.
+2024-02-08 17:34:53,952 - mph - INFO - Running study "Discharge".
+2024-02-08 17:35:04,346 - mph - INFO - Finished solving study.
+2024-02-08 17:35:04,347 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:35:07,198 - mph - INFO - Finished running export.
+2024-02-08 17:35:07,251 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:35:07,253 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:35:07,923 - mph - INFO - Finished loading model.
+2024-02-08 17:35:07,936 - mph - INFO - Running study "Discharge".
+2024-02-08 17:35:17,898 - mph - INFO - Finished solving study.
+2024-02-08 17:35:17,900 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:35:20,769 - mph - INFO - Finished running export.
+2024-02-08 17:35:20,825 - pyswarms.single.local_best - INFO - Optimization finished | best cost: 0.04522502185708196, best pos: [0.06168715 0.03361718 0.01061003]
+2024-02-08 17:35:20,826 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-08 17:35:20,827 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:35:21,479 - mph - INFO - Finished loading model.
+2024-02-08 17:35:21,492 - mph - INFO - Running study "Discharge".
+2024-02-08 17:35:33,097 - mph - INFO - Finished solving study.
+2024-02-08 17:35:33,099 - mph - INFO - Running export node "Discharge".
+2024-02-08 17:35:36,701 - mph - INFO - Finished running export.
+2024-02-08 17:37:07,914 - mph - INFO - Exiting the Java virtual machine.
+2024-02-08 17:37:12,812 - pyswarms.single.local_best - INFO - Optimize for 10 iters with {'c1': 0.5, 'c2': 0.3, 'w': 0.9, 'k': 3, 'p': 3}
+2024-02-08 17:37:12,815 - mph - INFO - Starting local Comsol session.
+2024-02-08 17:37:13,618 - mph - INFO - Starting Java virtual machine.
+2024-02-08 17:37:14,227 - mph - INFO - Java virtual machine has started.
+2024-02-08 17:37:15,298 - mph - INFO - Initializing stand-alone client.
+2024-02-08 17:37:17,683 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-08 17:37:17,686 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-08 17:37:17,687 - mph - INFO - Stand-alone client initialized.
+2024-02-08 17:37:17,689 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-08 17:37:29,412 - mph - INFO - Finished loading model.
+2024-02-08 17:37:29,630 - mph - INFO - Running study "Discharge".
+2024-02-08 17:37:46,503 - mph - INFO - Finished solving study.
+2024-02-08 17:37:46,541 - mph - INFO - Running export node "Discharge".
