@@ -17,14 +17,14 @@ def obj_fun(x, *args, **kwargs):
 
     if len(np.shape(x)) == 1:
         r = sim(x)
-        re = tuple(r[['time', 'voltage', 'current', 'soc']].apply(tuple, axis=1))
+        re = tuple(r[['time', 'voltage', 'current', 'capacity']].apply(tuple, axis=1))
 
         res = interp(exp, re)
     else:
         res = []
         for row in x:
             r = sim(row)
-            re = tuple(r[['time', 'voltage', 'current', 'soc']].apply(tuple, axis=1))
+            re = tuple(r[['time', 'voltage', 'current', 'capacity']].apply(tuple, axis=1))
 
             residual = interp(exp, re)
             res.append(calculate_rms(residual))
@@ -41,13 +41,13 @@ def obj_fun_dva(x, *args, **kwargs):
 
     if len(np.shape(x)) == 1:
         r = sim(x)
-        re = tuple(r[['time', 'voltage', 'current', 'soc']].apply(tuple, axis=1))
+        re = tuple(r[['time', 'voltage', 'current', 'capacity']].apply(tuple, axis=1))
         res = interp_dva(exp, re)
     else:
         res = []
         for row in x:
             r = sim(row)
-            re = tuple(r[['time', 'voltage', 'current', 'soc']].apply(tuple, axis=1))
+            re = tuple(r[['time', 'voltage', 'current', 'capacity']].apply(tuple, axis=1))
             residual = interp_dva(exp, re)
             res.append(calculate_rms(residual))
 
@@ -83,14 +83,17 @@ The second relies purely on the length of the vectors.'''
 
 
 def interp(e, re):
-    soc = np.linspace(1, 0, 100)
     u_exp = [element[1] for element in e]
-    x_exp = [element[3] for element in e]
+    q_exp = [element[3] for element in e]
     u_res = [element[1] for element in re]
-    x_res = [element[3] for element in re]
+    q_res = [element[3] for element in re]
 
-    exp = np.interp(soc, np.array(x_exp), np.array(u_exp))
-    res = np.interp(soc, np.array(x_res), np.array(u_res))
+    if len(q_exp) < len(q_res):
+        exp = np.interp(np.array(q_res), np.array(q_exp), np.array(u_exp))
+        res = np.interp(np.array(q_res), np.array(q_res), np.array(u_res))
+    else:
+        exp = np.interp(np.array(q_exp), np.array(q_exp), np.array(u_exp))
+        res = np.interp(np.array(q_exp), np.array(q_res), np.array(u_res))
 
     residual = [(a-b) for a, b in zip(res, exp)]
     return residual
@@ -138,7 +141,7 @@ def length(e, re):
 
 
 def get_results():  # From COMSOL txt file
-    results = pd.DataFrame(columns=['time', 'voltage', 'current', 'soc'])
+    results = pd.DataFrame(columns=['time', 'voltage', 'current', 'capacity'])
     with open('Discharge.txt') as d:
         dch = d.read()
         dch = dch.rstrip()
@@ -147,12 +150,12 @@ def get_results():  # From COMSOL txt file
         results['time'] = (dch[::4])
         results['voltage'] = (dch[1::4])
         results['current'] = (dch[2::4])
-        results['soc'] = (dch[3::4])
+        results['capacity'] = (dch[3::4])
 
         results['time'] = results['time'].astype(float)
         results['voltage'] = results['voltage'].astype(float)
         results['current'] = results['current'].astype(float)
-        results['soc'] = results['soc'].astype(float)
+        results['capacity'] = results['capacity'].astype(float)
     return results
 
 
@@ -177,7 +180,7 @@ def get_exp():  # From COMSOL example
 
 
 def get_txt():  # Mathilda experimental data, also in her paper with Moritz
-    exp = pd.DataFrame(columns=['time', 'voltage', 'current', 'soc'])
+    exp = pd.DataFrame(columns=['time', 'voltage', 'current', 'capacity'])
     e = pd.read_csv('PSb_c20_2_Comsol.txt', sep='\t', header=None, names=['Column1', 'Column2', 'Column3'])
 
     t = e['Column1'].to_numpy()
@@ -185,15 +188,24 @@ def get_txt():  # Mathilda experimental data, also in her paper with Moritz
     c = e['Column3'].to_numpy()
     c = -c
 
-    soc = []
-    for line in t:
-        soc_v = (t[-1] - line) / (t[-1] - t[0])
-        soc.append(soc_v)
+    # soc = []
+    # for line in t:
+    #    soc_v = (t[-1] - line) / (t[-1] - t[0])
+    #    soc.append(soc_v)
+
+    capacity = []
+    time = 0
+    cap = 0
+    for i, j in zip(t, c):
+        capacity_v = cap+j*(i-time)/3600
+        capacity.append(capacity_v)
+        time = i
+        cap = capacity_v
 
     exp['voltage'] = np.array(v)
     exp['time'] = np.array(t)
     exp['current'] = np.array(c)
-    exp['soc'] = np.array(soc)
+    exp['capacity'] = np.array(capacity)
     return exp
 
 
