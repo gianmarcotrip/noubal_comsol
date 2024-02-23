@@ -16346,3 +16346,183 @@ ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mism
 2024-02-15 10:48:40,261 - mph - INFO - Finished solving study.
 2024-02-15 10:48:40,263 - mph - INFO - Running export node "Discharge".
 2024-02-15 10:48:40,324 - mph - INFO - Finished running export.
+2024-02-23 14:13:29,212 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:13:30,295 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:13:32,100 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:13:34,157 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:13:55,622 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 14:15:52,887 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:15:53,587 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:15:55,029 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:15:56,647 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:15:59,726 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 14:15:59,726 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 14:15:59,726 - mph - INFO - Stand-alone client initialized.
+2024-02-23 14:15:59,726 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:16:12,051 - mph - INFO - Finished loading model.
+2024-02-23 14:16:12,318 - mph - INFO - Running study "Discharge".
+2024-02-23 14:16:27,575 - mph - INFO - Finished solving study.
+2024-02-23 14:16:27,654 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:16:27,858 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 14:17:49,533 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:17:50,103 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:17:51,007 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:17:52,635 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:17:56,769 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 14:17:56,773 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 14:17:56,774 - mph - INFO - Stand-alone client initialized.
+2024-02-23 14:17:56,776 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:18:09,437 - mph - INFO - Finished loading model.
+2024-02-23 14:18:09,682 - mph - INFO - Running study "Discharge".
+2024-02-23 14:18:26,129 - mph - INFO - Finished solving study.
+2024-02-23 14:18:26,165 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:18:26,180 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 14:20:35,987 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:20:36,608 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:20:37,808 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:20:39,804 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:20:43,719 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 14:20:43,719 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 14:20:43,734 - mph - INFO - Stand-alone client initialized.
+2024-02-23 14:20:43,736 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:20:55,749 - mph - INFO - Finished loading model.
+2024-02-23 14:20:55,859 - mph - INFO - Running study "Discharge".
+2024-02-23 14:21:12,714 - mph - INFO - Finished solving study.
+2024-02-23 14:21:12,760 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:21:12,854 - mph - INFO - Finished running export.
+2024-02-23 14:21:13,153 - dfols.util - INFO - Function eval 1 at point 1 has f = 5.91759282258991 at x = [0.1  0.05 0.05]
+2024-02-23 14:21:13,153 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-23 14:21:13,153 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-23 14:21:13,153 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-23 14:21:13,153 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:21:15,147 - mph - INFO - Finished loading model.
+2024-02-23 14:21:15,194 - mph - INFO - Running study "Discharge".
+2024-02-23 14:21:29,019 - mph - INFO - Finished solving study.
+2024-02-23 14:21:29,019 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:21:29,082 - mph - INFO - Finished running export.
+2024-02-23 14:21:34,463 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 14:25:18,858 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:25:19,470 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:25:20,663 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:25:22,631 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:25:26,933 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 14:25:26,948 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 14:25:26,948 - mph - INFO - Stand-alone client initialized.
+2024-02-23 14:25:26,948 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:25:38,960 - mph - INFO - Finished loading model.
+2024-02-23 14:25:39,195 - mph - INFO - Running study "Discharge".
+2024-02-23 14:25:55,226 - mph - INFO - Finished solving study.
+2024-02-23 14:25:55,257 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:25:55,336 - mph - INFO - Finished running export.
+2024-02-23 14:25:55,650 - dfols.util - INFO - Function eval 1 at point 1 has f = 5.9175928225852 at x = [0.1  0.05 0.05]
+2024-02-23 14:25:55,650 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-23 14:25:55,650 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-23 14:25:55,650 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-23 14:25:55,650 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:25:57,948 - mph - INFO - Finished loading model.
+2024-02-23 14:25:57,979 - mph - INFO - Running study "Discharge".
+2024-02-23 14:26:11,657 - mph - INFO - Finished solving study.
+2024-02-23 14:26:11,657 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:26:11,704 - mph - INFO - Finished running export.
+2024-02-23 14:26:14,224 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 14:33:59,167 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:33:59,741 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:34:00,603 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:34:02,188 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:34:06,166 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 14:34:06,171 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 14:34:06,171 - mph - INFO - Stand-alone client initialized.
+2024-02-23 14:34:06,174 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:34:18,801 - mph - INFO - Finished loading model.
+2024-02-23 14:34:18,921 - mph - INFO - Running study "Discharge".
+2024-02-23 14:34:43,967 - mph - INFO - Finished solving study.
+2024-02-23 14:34:44,026 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:34:44,194 - mph - INFO - Finished running export.
+2024-02-23 14:34:44,736 - dfols.util - INFO - Function eval 1 at point 1 has f = 5.91759282267136 at x = [0.1  0.05 0.05]
+2024-02-23 14:34:44,737 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-23 14:34:44,739 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-23 14:34:44,740 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-23 14:34:44,743 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:34:47,708 - mph - INFO - Finished loading model.
+2024-02-23 14:34:47,769 - mph - INFO - Running study "Discharge".
+2024-02-23 14:35:15,071 - mph - INFO - Finished solving study.
+2024-02-23 14:35:15,121 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:35:15,210 - mph - INFO - Finished running export.
+2024-02-23 14:35:22,274 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 14:42:13,485 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:42:13,864 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:42:14,398 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:42:15,403 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:42:18,187 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 14:42:18,191 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 14:42:18,192 - mph - INFO - Stand-alone client initialized.
+2024-02-23 14:42:18,193 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:42:28,351 - mph - INFO - Finished loading model.
+2024-02-23 14:42:28,437 - mph - INFO - Running study "Discharge".
+2024-02-23 14:42:43,649 - mph - INFO - Finished solving study.
+2024-02-23 14:42:43,679 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:42:43,738 - mph - INFO - Finished running export.
+2024-02-23 14:42:44,046 - dfols.util - INFO - Function eval 1 at point 1 has f = 5.91759282256992 at x = [0.1  0.05 0.05]
+2024-02-23 14:42:44,048 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-23 14:42:44,049 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-23 14:42:44,049 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-23 14:42:44,051 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:42:45,860 - mph - INFO - Finished loading model.
+2024-02-23 14:42:45,891 - mph - INFO - Running study "Discharge".
+2024-02-23 14:42:57,736 - mph - INFO - Finished solving study.
+2024-02-23 14:42:57,741 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:42:57,791 - mph - INFO - Finished running export.
+2024-02-23 14:43:20,192 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 14:43:23,572 - mph - INFO - Starting local Comsol session.
+2024-02-23 14:43:23,944 - mph - INFO - Starting Java virtual machine.
+2024-02-23 14:43:24,478 - mph - INFO - Java virtual machine has started.
+2024-02-23 14:43:25,450 - mph - INFO - Initializing stand-alone client.
+2024-02-23 14:43:28,191 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 14:43:28,195 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 14:43:28,196 - mph - INFO - Stand-alone client initialized.
+2024-02-23 14:43:28,197 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:43:38,366 - mph - INFO - Finished loading model.
+2024-02-23 14:43:38,454 - mph - INFO - Running study "Discharge".
+2024-02-23 14:43:54,043 - mph - INFO - Finished solving study.
+2024-02-23 14:43:54,073 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:43:54,132 - mph - INFO - Finished running export.
+2024-02-23 14:43:54,411 - dfols.util - INFO - Function eval 1 at point 1 has f = 5.91759282254428 at x = [0.1  0.05 0.05]
+2024-02-23 14:43:54,412 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-23 14:43:54,412 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-23 14:43:54,413 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-23 14:43:54,414 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 14:43:56,191 - mph - INFO - Finished loading model.
+2024-02-23 14:43:56,221 - mph - INFO - Running study "Discharge".
+2024-02-23 14:44:08,415 - mph - INFO - Finished solving study.
+2024-02-23 14:44:08,419 - mph - INFO - Running export node "Discharge".
+2024-02-23 14:44:08,468 - mph - INFO - Finished running export.
+2024-02-23 14:44:14,757 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 16:11:57,908 - mph - INFO - Starting local Comsol session.
+2024-02-23 16:11:58,895 - mph - INFO - Starting Java virtual machine.
+2024-02-23 16:12:01,084 - mph - INFO - Java virtual machine has started.
+2024-02-23 16:12:04,008 - mph - INFO - Initializing stand-alone client.
+2024-02-23 16:12:10,245 - mph - INFO - Exiting the Java virtual machine.
+2024-02-23 16:14:11,793 - mph - INFO - Starting local Comsol session.
+2024-02-23 16:14:12,701 - mph - INFO - Starting Java virtual machine.
+2024-02-23 16:14:14,468 - mph - INFO - Java virtual machine has started.
+2024-02-23 16:14:17,298 - mph - INFO - Initializing stand-alone client.
+2024-02-23 16:14:28,149 - mph - INFO - Preference "tempfiles.saving.warnifoverwriteolder" does not exist.
+2024-02-23 16:14:28,149 - mph - INFO - Preference "tempfiles.saving.optimize" does not exist.
+2024-02-23 16:14:28,165 - mph - INFO - Stand-alone client initialized.
+2024-02-23 16:14:28,165 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 16:14:53,677 - mph - INFO - Finished loading model.
+2024-02-23 16:14:54,133 - mph - INFO - Running study "Discharge".
+2024-02-23 16:15:39,094 - mph - INFO - Finished solving study.
+2024-02-23 16:15:39,173 - mph - INFO - Running export node "Discharge".
+2024-02-23 16:15:39,377 - mph - INFO - Finished running export.
+2024-02-23 16:15:41,089 - dfols.util - INFO - Function eval 1 at point 1 has f = 5.91759282260202 at x = [0.1  0.05 0.05]
+2024-02-23 16:15:41,089 - dfols.solver - INFO - Initialising (coordinate directions)
+2024-02-23 16:15:41,089 - dfols.solver - INFO - Did a total of 1 run(s)
+2024-02-23 16:15:41,089 - mph - INFO - mph.start() returning the existing client instance.
+2024-02-23 16:15:41,104 - mph - INFO - Loading model "li_battery_2d_Mathilda_1Domain.mph".
+2024-02-23 16:15:47,746 - mph - INFO - Finished loading model.
+2024-02-23 16:15:47,840 - mph - INFO - Running study "Discharge".
+2024-02-23 16:16:14,482 - mph - INFO - Finished solving study.
+2024-02-23 16:16:14,482 - mph - INFO - Running export node "Discharge".
+2024-02-23 16:16:14,607 - mph - INFO - Finished running export.
+2024-02-23 16:16:19,338 - mph - INFO - Exiting the Java virtual machine.

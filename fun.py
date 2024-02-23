@@ -8,7 +8,7 @@ import differential
  Tee PSO reads a dictionary and then simulates for all the different cases at once. 
  Therefore it is necessary to write down a cycle as each line in x is a particle.'''
 
-
+@profile
 def obj_fun(x, *args, **kwargs):
     exp = args if args else kwargs
 
@@ -57,7 +57,7 @@ def obj_fun_dva(x, *args, **kwargs):
 
 '''Responsible for the simulation independently from the optimization algorithm utilized'''
 
-
+@profile
 def sim(x):
     client = mph.start()
     model = client.load('li_battery_2d_Mathilda_1Domain.mph')
@@ -81,7 +81,7 @@ def sim(x):
 The First is based on interpolation to a common SOC that ranges from 1 to 0 in n point.
 The second relies purely on the length of the vectors.'''
 
-
+@profile
 def interp(e, re):
     u_exp = [element[1] for element in e]
     q_exp = [element[3] for element in e]
@@ -115,7 +115,7 @@ def interp_dva(e, re):
     residual = [(a-b) for a, b in zip(dqdv_res, dqdv_e)]
     return residual
 
-
+@profile
 def length(e, re):
     minexp = len(e) - 10
     minres = len(re)
@@ -139,7 +139,7 @@ def length(e, re):
 
 ''' Functions responsible for reading and formatting both experimental and model data'''
 
-
+@profile
 def get_results():  # From COMSOL txt file
     results = pd.DataFrame(columns=['time', 'voltage', 'current', 'capacity'])
     with open('Discharge.txt') as d:
@@ -208,7 +208,7 @@ def get_txt():  # Mathilda experimental data, also in her paper with Moritz
     exp['capacity'] = np.array(capacity)
     return exp
 
-
+@profile
 def calculate_rms(array):
     # Convert the array to a numpy array
     np_array = np.array(array)

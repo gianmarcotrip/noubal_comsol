@@ -3,6 +3,7 @@ import opt
 import plot
 import differential
 import numpy as np
+import time
 
 exp = fun.get_txt()
 settings = {"exp": exp, "balancing_pars": [0.1, 0.05, 0.05],
@@ -15,6 +16,9 @@ if settings["PSO"] == 'True':
     x, opt_output, resid = opt.pso(settings)
 else:
     x, opt_output, resid = opt.dfo(settings)
+
+
+print(time.perf_counter())
 
 rms = fun.calculate_rms(resid)
 rms = "{:.2f}".format(rms*1000)
