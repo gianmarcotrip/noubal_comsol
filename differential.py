@@ -28,10 +28,21 @@ def dvdq_maria(us, js, ts):
 
         return x, c
 
+    def cum_cap(t, c):
+        capacity = []
+        time = 0
+        cap = 0
+        for i, j in zip(t, c):
+            capacity_v = cap + j * (i - time) / 3600
+            capacity.append(capacity_v)
+            time = i
+            cap = capacity_v
+        return capacity
+
     prespan = 0.05
     Es = smooth_matlab(np.array(us), prespan)
     dt = ts[1] - ts[0]
-    caps = np.cumsum(js) * dt / 3600
+    caps = cum_cap(ts, js)
     Qs = smooth_matlab(caps, prespan)
 
     dV = np.diff(Es)
