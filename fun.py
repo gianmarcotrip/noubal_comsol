@@ -1,14 +1,20 @@
-import mph
+"""
+
+
+
+"""
+
 import numpy as np
 import pandas as pd
 # import time
+import mph
 import differential
 
 '''DFOLS reads a tuple for experimental data and then simulates iteratively the single case that is gradually optimized.
- Tee PSO reads a dictionary and then simulates for all the different cases at once. 
+ The PSO reads a dictionary and then simulates for all the different cases at once. 
  Therefore it is necessary to write down a cycle as each line in x is a particle.'''
 
-@profile
+
 def obj_fun(x, *args, **kwargs):
     exp = args if args else kwargs
 
@@ -57,10 +63,10 @@ def obj_fun_dva(x, *args, **kwargs):
 
 '''Responsible for the simulation independently from the optimization algorithm utilized'''
 
-@profile
+
 def sim(x):
     client = mph.start()
-    model = client.load('li_battery_2d_Mathilda_1Domain.mph')
+    model = client.load('models/li_battery_2d_Mathilda_1Domain.mph')
 
     # model.parameter('h1', x[0])              #Share of heterogeneous region 1 [h2=1-h1]
     model.parameter('LI_loss', x[0])       # Loss of lithium inventory
@@ -81,7 +87,7 @@ def sim(x):
 The First is based on interpolation to a common SOC that ranges from 1 to 0 in n point.
 The second relies purely on the length of the vectors.'''
 
-@profile
+
 def interp(e, re):
     u_exp = [element[1] for element in e]
     q_exp = [element[3] for element in e]
@@ -107,15 +113,15 @@ def interp_dva(e, re):
     u_res = [element[1] for element in re]
     c_res = [element[2] for element in re]
 
-    Qs_e, Es_e, dvdq_e, dqdv_e = differential.dvdq_maria(u_exp, c_exp, t_exp)
-    Qs_r, Es_r, dvdq_r, dqdv_r = differential.dvdq_maria(u_res, c_res, t_res)
+    qs_e, es_e, dvdq_e, dqdv_e = differential.dvdq_maria(u_exp, c_exp, t_exp)
+    qs_r, es_r, dvdq_r, dqdv_r = differential.dvdq_maria(u_res, c_res, t_res)
 
-    dqdv_res = np.interp(Qs_e, np.array(Qs_r), np.array(dqdv_r))
+    dqdv_res = np.interp(qs_e, np.array(qs_r), np.array(dqdv_r))
 
     residual = [(a-b) for a, b in zip(dqdv_res, dqdv_e)]
     return residual
 
-@profile
+
 def length(e, re):
     minexp = len(e) - 10
     minres = len(re)
@@ -139,10 +145,10 @@ def length(e, re):
 
 ''' Functions responsible for reading and formatting both experimental and model data'''
 
-@profile
+
 def get_results():  # From COMSOL txt file
     results = pd.DataFrame(columns=['time', 'voltage', 'current', 'capacity'])
-    with open('Discharge.txt') as d:
+    with open('data/Discharge.txt') as d:
         dch = d.read()
         dch = dch.rstrip()
         dch = dch.split(';')
@@ -161,7 +167,7 @@ def get_results():  # From COMSOL txt file
 
 def get_exp():  # From COMSOL example
     exp = pd.DataFrame(columns=['voltage', 'soc'])
-    with open('exp.txt') as d:
+    with open('data/exp.txt') as d:
         e = d.read()
         e = e.rstrip()
         e = e.split(';')
@@ -181,7 +187,7 @@ def get_exp():  # From COMSOL example
 
 def get_txt():  # Mathilda experimental data, also in her paper with Moritz
     exp = pd.DataFrame(columns=['time', 'voltage', 'current', 'capacity'])
-    e = pd.read_csv('PSb_c20_2_Comsol.txt', sep='\t', header=None, names=['Column1', 'Column2', 'Column3'])
+    e = pd.read_csv('data/PSb_c20_2_Comsol.txt', sep='\t', header=None, names=['Column1', 'Column2', 'Column3'])
 
     t = e['Column1'].to_numpy()
     v = e['Column2'].to_numpy()
@@ -208,7 +214,7 @@ def get_txt():  # Mathilda experimental data, also in her paper with Moritz
     exp['capacity'] = np.array(capacity)
     return exp
 
-@profile
+
 def calculate_rms(array):
     # Convert the array to a numpy array
     np_array = np.array(array)
