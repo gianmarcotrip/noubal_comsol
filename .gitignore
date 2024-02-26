@@ -1,5 +1,6 @@
-#Not uploading in github all the comsol files
+# ignore ALL .log files
+*.log
 
-li_battery_2d_Mathilda.mph
-li_battery_2d_Mathilda_1Domain.mph
-li_battery_2d_NMC-Gr.mph
+# ignore ALL files in ANY directory named data and models
+data/
+models/
