@@ -20,7 +20,7 @@ settings = {"exp": exp,
             # 'h1', 'LI_loss', 'epss_ia_pos1', 'epss_ia_pos2', 'epss_ia_neg1', 'epss_ia_neg2'
             "bounds": [[0.05, 0, 0], [0.2, 0.2, 0.2]],   # [min], [max]
             "dva": 'False',
-            "PSO": 'False'
+            "PSO": 'True'
             }
 # Set-up hyperparameters
 options = {'c1': 0.5,
@@ -33,14 +33,14 @@ options = {'c1': 0.5,
 
 if settings["PSO"] == 'True':
 
-    settings['n_particles'] = 20
-    settings['iters'] = 15
+    settings['n_particles'] = 2
+    settings['iters'] = 2
 
     x, opt_output, resid = opt.pso(settings, options)
 else:
 
     settings['scaling_within_bounds'] = True
-    settings['maxfun'] = 50
+    settings['maxfun'] = 1
     settings['rhobeg'] = 0.2
     settings['rhoend'] = 1e-7
     settings['print_progress'] = True
@@ -53,5 +53,5 @@ else:
 
 print(time.perf_counter())
 
-plot.plot(exp, resid, opt_output)
+plot.plot(exp, opt_output, resid)
 plot.plot_dva(exp, opt_output)

@@ -4,3 +4,6 @@
 # ignore ALL files in ANY directory named data and models
 data/
 models/
+
+# ignore line profiler file
+/main.py.lprof

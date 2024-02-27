@@ -30,11 +30,22 @@ def gaussian_filter(x, y, span):
     return x, c
 
 
-def dvdq_maria(us, js, ts):
+def cum_cap(t, c):
+    capacity = []
+    time = 0
+    cap = 0
+    for i, j in zip(t, c):
+        capacity_v = cap + j * (i - time) / 3600
+        capacity.append(capacity_v)
+        time = i
+        cap = capacity_v
+    return capacity
+
+
+def dvdq(us, js, ts):
     prespan = 0.05
     es = smooth_matlab(np.array(us), prespan)
-    dt = ts[1] - ts[0]
-    caps = np.cumsum(js) * dt / 3600
+    caps = cum_cap(ts, js)
     qs = smooth_matlab(caps, prespan)
 
     dv = np.diff(es)

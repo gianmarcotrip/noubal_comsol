@@ -1,6 +1,8 @@
-"""
+"""Main functions involved in the model
 
-
+Responsible for objective function definition,
+running simulations in COMSOL and doing all the
+data handling required in between iterations.
 
 """
 
@@ -10,12 +12,36 @@ import pandas as pd
 import mph
 import differential
 
-'''DFOLS reads a tuple for experimental data and then simulates iteratively the single case that is gradually optimized.
- The PSO reads a dictionary and then simulates for all the different cases at once. 
- Therefore it is necessary to write down a cycle as each line in x is a particle.'''
+'''.'''
 
 
 def obj_fun(x, *args, **kwargs):
+    """Discharge curve based objective function.
+    Runs the simulation(s) and returns the residuals.
+
+    DFO-LS simulates iteratively a single case (x) that is optimized.
+    The PSO reads all the different cases (particles) at once
+    and then simulates all of them for each objective function call.
+    Therefore, it is necessary to write down a cycle
+    as each line in x is a particle.
+
+    Parameters
+    ----------
+    x : ndarray
+        Contains all the parameters to be optimized.
+    *args : tuple
+        The DFO-LS requires a tuple for experimental data.
+    **kwargs : dictionary
+        The PSO requires a dictionary.
+
+    Returns
+    -------
+    res : list
+        One residual per each particle in the PSO.
+        One list with residuals per each evaluated point
+        in the DFO-LS case.
+    """
+
     exp = args if args else kwargs
 
     if isinstance(exp, dict):
@@ -40,6 +66,32 @@ def obj_fun(x, *args, **kwargs):
 
 
 def obj_fun_dva(x, *args, **kwargs):
+    """Differential Voltage curve based objective function.
+    Runs the simulation(s) and returns the residuals.
+
+    DFO-LS simulates iteratively a single case (x) that is optimized.
+    The PSO reads all the different cases (particles) at once
+    and then simulates all of them for each objective function call.
+    Therefore, it is necessary to write down a cycle
+    as each line in x is a particle.
+
+    Parameters
+    ----------
+    x : ndarray
+        Contains all the parameters to be optimized.
+    *args : tuple
+        The DFO-LS requires a tuple for experimental data.
+    **kwargs : dictionary
+        The PSO requires a dictionary.
+
+    Returns
+    -------
+    res : list
+        One residual per each particle in the PSO.
+        One list with residuals per each evaluated point
+        in the DFO-LS case.
+    """
+
     exp = args if args else kwargs
 
     if isinstance(exp, dict):
@@ -61,10 +113,24 @@ def obj_fun_dva(x, *args, **kwargs):
     return res
 
 
-'''Responsible for the simulation independently from the optimization algorithm utilized'''
+''''''
 
 
 def sim(x):
+    """Run the simulation in COMSOL.
+    Responsible for the simulation independently
+    of the optimization algorithm utilized
+
+    Parameters
+    ----------
+    x : ndarray
+        Contains the parameters to be used in the single simulation.
+
+    Returns
+    -------
+    results : DataFrame
+        Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+    """
     client = mph.start()
     model = client.load('models/li_battery_2d_Mathilda_1Domain.mph')
 
@@ -83,12 +149,24 @@ def sim(x):
     return results
 
 
-''' Two different ways of manipulating data and obtaining the residuals. 
-The First is based on interpolation to a common SOC that ranges from 1 to 0 in n point.
-The second relies purely on the length of the vectors.'''
-
-
 def interp(e, re):
+    """Interpolate output of the model to experimental results.
+    This allows to have comparable data and then calculate residuals in each evaluated data point.
+
+    Data is interpolated with respect to exchanged charge of the shorter process between experimental and model.
+
+    Parameters
+    ----------
+    e : tuple
+        Contains the experimental results.
+    re : tuple
+        Contains the model results.
+
+    Returns
+    -------
+    residual : list
+        Residuals of each data point in the discharge curve.
+    """
     u_exp = [element[1] for element in e]
     q_exp = [element[3] for element in e]
     u_res = [element[1] for element in re]
@@ -106,6 +184,24 @@ def interp(e, re):
 
 
 def interp_dva(e, re):
+    """Interpolate output of the model to experimental results.
+    This allows to have comparable data and then calculate residuals in each evaluated data point.
+
+    Data is interpolated with respect to exchanged charge of the shorter process between experimental and model.
+
+    Parameters
+    ----------
+    e : tuple
+        Contains the experimental results.
+    re : tuple
+        Contains the model results.
+
+    Returns
+    -------
+    residual : list
+        Residuals of each data point in the discharge curve.
+    """
+
     t_exp = [element[0] for element in e]
     u_exp = [element[1] for element in e]
     c_exp = [element[2] for element in e]
@@ -113,8 +209,8 @@ def interp_dva(e, re):
     u_res = [element[1] for element in re]
     c_res = [element[2] for element in re]
 
-    qs_e, es_e, dvdq_e, dqdv_e = differential.dvdq_maria(u_exp, c_exp, t_exp)
-    qs_r, es_r, dvdq_r, dqdv_r = differential.dvdq_maria(u_res, c_res, t_res)
+    qs_e, es_e, dvdq_e, dqdv_e = differential.dvdq(u_exp, c_exp, t_exp)
+    qs_r, es_r, dvdq_r, dqdv_r = differential.dvdq(u_res, c_res, t_res)
 
     dqdv_res = np.interp(qs_e, np.array(qs_r), np.array(dqdv_r))
 
@@ -123,6 +219,9 @@ def interp_dva(e, re):
 
 
 def length(e, re):
+    """Used before interp. NOT USED ANYMORE
+    It was only comparing the length of the vectors
+    """
     minexp = len(e) - 10
     minres = len(re)
     # min_min = min([minexp, minres])-10
@@ -146,7 +245,16 @@ def length(e, re):
 ''' Functions responsible for reading and formatting both experimental and model data'''
 
 
-def get_results():  # From COMSOL txt file
+def get_results():
+    """Functions responsible for reading and formatting COMSOL data
+    The result is exported as .txt file and is then open and formatted to a DataFrame.
+
+    Returns
+    -------
+    results : DataFrame
+        Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+    """
+
     results = pd.DataFrame(columns=['time', 'voltage', 'current', 'capacity'])
     with open('data/Discharge.txt') as d:
         dch = d.read()
@@ -166,6 +274,16 @@ def get_results():  # From COMSOL txt file
 
 
 def get_exp():  # From COMSOL example
+    """Functions responsible for reading and formatting COMSOL data
+    The result is exported as .txt file and is then open and formatted to a DataFrame.
+
+    NOT USED ANYMORE. COMSOL OUTPUT WAS USED AS EXPERIMENTAL DATA IN THE TESTING PHASE.
+
+    Returns
+    -------
+    exp : DataFrame
+        Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+        """
     exp = pd.DataFrame(columns=['voltage', 'soc'])
     with open('data/exp.txt') as d:
         e = d.read()
@@ -186,8 +304,25 @@ def get_exp():  # From COMSOL example
 
 
 def get_txt():  # Mathilda experimental data, also in her paper with Moritz
+    """Functions responsible for reading and formatting M-M data
+    The result is exported as .txt file and is then open and formatted to a DataFrame.
+    Mathilda experimental data, comes from her paper with Moritz [1].
+
+    Returns
+    -------
+    exp : DataFrame
+        Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+
+    References
+    ----------
+    [1] https://doi.org/10.1016/j.est.2022.105948.
+    """
     exp = pd.DataFrame(columns=['time', 'voltage', 'current', 'capacity'])
-    e = pd.read_csv('data/PSb_c20_2_Comsol.txt', sep='\t', header=None, names=['Column1', 'Column2', 'Column3'])
+    e = pd.read_csv('data/PSb_c20_2_Comsol.txt',
+                    sep='\t',
+                    header=None,
+                    names=['Column1', 'Column2', 'Column3']
+                    )
 
     t = e['Column1'].to_numpy()
     v = e['Column2'].to_numpy()
@@ -215,17 +350,22 @@ def get_txt():  # Mathilda experimental data, also in her paper with Moritz
     return exp
 
 
-def calculate_rms(array):
-    # Convert the array to a numpy array
-    np_array = np.array(array)
+def calculate_rms(data_list):
+    """Calculates the RMS of a list
 
-    # Calculate the square of each element
-    squared_values = np_array ** 2
+    Parameters
+    ----------
+    data_list : list
+        Contains an array of data.
 
-    # Calculate the mean of the squared values
+    Returns
+    -------
+    rms : float
+        Root mean square of the list.
+    """
+
+    l2a = np.array(data_list)
+    squared_values = l2a ** 2
     mean_squared = np.mean(squared_values)
-
-    # Calculate the square root of the mean squared value
     rms = np.sqrt(mean_squared)
-
     return rms

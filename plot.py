@@ -1,5 +1,4 @@
-"""
-
+"""All the functions responsible for plotting at the end of the simulation
 
 """
 
@@ -9,7 +8,20 @@ import fun
 import differential
 
 
-def plot(exp, resid, opt_output):
+def plot(exp, opt_output, resid):
+    """Plot the experimental and model discharge curves.
+    A value for the RMSE is included in the plot.
+
+    Parameters
+    ----------
+    exp : ndarray
+    Optimized parameters.
+    opt_output : DataFrame
+    Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+    resid : ndarray or float
+    Residuals of the objective function (if DFO-LS) or directly the rms (if PSO).
+    """
+
     rms = fun.calculate_rms(resid)
     rms = "{:.2f}".format(rms * 1000)
 
@@ -28,11 +40,20 @@ def plot(exp, resid, opt_output):
 
 
 def plot_dva(exp, opt_output):
-    # exp_v = np.interp(opt_output['time'], exp['time'], exp['voltage'])
-    # exp_c = np.interp(opt_output['time'], exp['time'], exp['current'])
+    """Plot the experimental and model differential voltage curves.
 
-    qs_e, es_e, dvdq_e, dqdv_e = differential.dvdq_maria(exp['voltage'], exp['current'], opt_output['time'])
-    qs_r, es_r, dvdq_r, dqdv_r = differential.dvdq_maria(opt_output['voltage'], opt_output['current'], opt_output['time'])
+    Parameters
+    ----------
+    exp : ndarray
+    Optimized parameters.
+    opt_output : DataFrame
+    Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+    """
+    exp_v = np.interp(opt_output['time'], exp['time'], exp['voltage'])
+    exp_c = np.interp(opt_output['time'], exp['time'], exp['current'])
+
+    qs_e, es_e, dvdq_e, dqdv_e = differential.dvdq(exp_v, exp_c, opt_output['time'])
+    qs_r, es_r, dvdq_r, dqdv_r = differential.dvdq(opt_output['voltage'], opt_output['current'], opt_output['time'])
 
     plt.plot(qs_e, dvdq_e, label='Experimental')
     plt.plot(qs_r, dvdq_r, label='Model', linestyle='--')

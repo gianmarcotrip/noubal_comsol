@@ -19,18 +19,19 @@ def dfo(settings):
     ----------
     settings : dictionary
         Contains all the information necessary to run the optimization.
-        In order: the experimental measurement to be fitted, the parameters to be optimized
-        and their boundary values plus an indication of the objective function.
+        In order the experimental measurement to be fitted,
+        the parameters to be optimized and their boundary values plus
+        an indication of the objective function.
         On top of this all the DFO-LS parameters are defined.
 
     Returns
     -------
-    soln.x : type
+    soln.x : ndarray
         Optimized parameters.
-    opt_output : type
-        Results of the simulation.
-    soln.resid : type
-        Residuals.
+    opt_output : DataFrame
+        Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+    soln.resid : ndarray
+        Residuals of the objective function.
 
 
     References
@@ -104,12 +105,12 @@ def pso(settings, options):
 
     Returns
     -------
-    pos : type
+    pos : ndarray
         Optimized parameters.
-    opt_output : type
-        Results of the simulation.
-    cost : type
-        Residuals.
+    opt_output : DataFrame
+        Results of the simulation ['time', 'voltage', 'current', 'capacity'].
+    cost : float64
+        Root mean square error of the objective function.
 
 
     References
