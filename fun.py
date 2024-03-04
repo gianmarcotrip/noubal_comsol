@@ -8,11 +8,12 @@ data handling required in between iterations.
 
 import numpy as np
 import pandas as pd
-# import time
 import mph
 import differential
+# import time
 
-'''.'''
+
+''''''
 
 
 def obj_fun(x, *args, **kwargs):
@@ -140,6 +141,7 @@ def sim(x):
     # model.parameter('epss_ia_pos2', x[2])  # Inactive phase volume fraction, pos el, region 2
     model.parameter('epss_ia_neg1', x[2])  # Inactive phase volume fraction, neg el, region 1
     # model.parameter('epss_ia_neg2', x[4])  # Inactive phase volume fraction, neg el, region 1
+    model.parameter('Emax', x[3])  # Film resistance (applied on negative electrode)
 
     model.solve('Discharge')
     model.export()
@@ -147,6 +149,9 @@ def sim(x):
 
     results = get_results()
     return results
+
+
+''''''
 
 
 def interp(e, re):
@@ -209,8 +214,8 @@ def interp_dva(e, re):
     u_res = [element[1] for element in re]
     c_res = [element[2] for element in re]
 
-    qs_e, es_e, dvdq_e, dqdv_e = differential.dvdq(u_exp, c_exp, t_exp)
-    qs_r, es_r, dvdq_r, dqdv_r = differential.dvdq(u_res, c_res, t_res)
+    qs_e, es_e, dvdq_e, dqdv_e = differential.dva(u_exp, c_exp, t_exp)
+    qs_r, es_r, dvdq_r, dqdv_r = differential.dva(u_res, c_res, t_res)
 
     dqdv_res = np.interp(qs_e, np.array(qs_r), np.array(dqdv_r))
 
@@ -248,6 +253,9 @@ def length(e, re):
 def get_results():
     """Functions responsible for reading and formatting COMSOL data
     The result is exported as .txt file and is then open and formatted to a DataFrame.
+    Important to have a model in COMSOL that exports a file with data in the correct order
+    as they are sliced from the .txt
+    Therefore: 'time', 'voltage', 'current', 'capacity'.
 
     Returns
     -------

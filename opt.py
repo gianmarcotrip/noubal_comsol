@@ -10,6 +10,7 @@ import numpy as np
 import pyswarms as ps
 import dfols
 import fun
+import mph
 
 
 def dfo(settings):

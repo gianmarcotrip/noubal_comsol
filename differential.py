@@ -42,7 +42,7 @@ def cum_cap(t, c):
     return capacity
 
 
-def dvdq(us, js, ts):
+def dva(us, js, ts):
     prespan = 0.05
     es = smooth_matlab(np.array(us), prespan)
     caps = cum_cap(ts, js)
